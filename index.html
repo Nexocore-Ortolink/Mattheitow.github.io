@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrtoLink - Rehabilitación conectada, progreso acompañado</title>
+
+    <!-- Meta tags para SEO -->
+    <meta name="description"
+        content="OrtoLink es la plataforma digital que conecta a pacientes amputados con especialistas en rehabilitación. Rutinas guiadas, diario de dolor y monitoreo remoto.">
+    <meta name="keywords"
+        content="rehabilitacion, protesis, amputados, dolor fantasma, telemedicina, ortopedia, fisioterapia, peru">
+    <meta name="author" content="Nexocore">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Material Symbols Rounded -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Cabecera / Barra de Navegación -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#inicio" class="logo-area">
+                <img src="images/Ortolink logo sin fondo.png" alt="OrtoLink Logo" class="logo-img">
+                <span class="logo-text">OrtoLink</span>
+            </a>
+
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación">
+                <span class="material-symbols-rounded">menu</span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a>
+                <a href="#beneficios" class="nav-link">Beneficios</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#registro" class="nav-link">Registro</a>
+                <a href="#contacto" class="nav-link btn-secondary-nav">Contáctanos</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#registro" class="btn btn-primary btn-sm">Descargar App</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Hero (Inicio) -->
+    <section class="hero-section" id="inicio">
+        <div class="container hero-grid">
+            <div class="hero-content fade-in">
+                <span class="badge">Rehabilitación Inteligente</span>
+                <h1 class="hero-title">Rehabilitación conectada, progreso acompañado.</h1>
+                <p class="hero-subtitle">
+                    Cierra la brecha en tu proceso de recuperación post-protésica. OrtoLink conecta a pacientes
+                    amputados con sus especialistas para un monitoreo continuo, rutinas de movilidad guiadas y control
+                    del dolor desde casa.
+                </p>
+                <div class="hero-actions">
+                    <a href="#registro" class="btn btn-primary">Descargar ahora</a>
+                    <a href="#beneficios" class="btn btn-secondary-outline">Conocer beneficios</a>
+                </div>
+            </div>
+            <div class="hero-media slide-in-right">
+                <div class="hero-image-wrapper">
+                    <img src="images/hero_woman_waving.png"
+                        alt="Paciente con prótesis de brazo sonriendo y saludando" class="hero-img">
+                    <div class="experience-card">
+                        <span class="material-symbols-rounded icon-badge">health_and_safety</span>
+                        <div class="experience-text">
+                            <strong>+40%</strong>
+                            <span>Adherencia clínica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros (Nexocore & Equipo) -->
+    <section class="about-section" id="sobre-nosotros">
+        <div class="container">
+            <div class="section-header text-center scroll-animate">
+                <span class="section-tag">Sobre Nosotros</span>
+                <h2>Conoce a Nexocore</h2>
+                <p class="section-desc">
+                    Somos un startup tecnológico peruano comprometido con mejorar la calidad de vida de las personas
+                    amputadas a través de soluciones digitales accesibles y humanas.
+                </p>
+            </div>
+
+            <!-- Misión y Visión -->
+            <div class="about-mv grid-2 scroll-animate">
+                <div class="mv-card mission">
+                    <div class="mv-icon-wrapper">
+                        <span class="material-symbols-rounded">track_changes</span>
+                    </div>
+                    <h3>Nuestra Misión</h3>
+                    <p>
+                        Ofrecer una plataforma digital accesible e innovadora que permita a personas amputadas gestionar
+                        su proceso de rehabilitación de forma integral, promoviendo la autonomía y la conexión efectiva
+                        con profesionales de la salud.
+                    </p>
+                </div>
+                <div class="mv-card vision">
+                    <div class="mv-icon-wrapper">
+                        <span class="material-symbols-rounded">visibility</span>
+                    </div>
+                    <h3>Nuestra Visión</h3>
+                    <p>
+                        Consolidarnos como la solución líder en rehabilitación digital en el Perú y Latinoamérica,
+                        transformando el modelo de atención post-protésica mediante un acompañamiento continuo,
+                        personalizado y humanizado.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Integrantes del Equipo -->
+            <div class="team-area scroll-animate">
+                <h3 class="team-title text-center">Nuestro Equipo de Desarrollo</h3>
+                <div class="team-grid">
+                    <!-- Integrante 1 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Rafael Bustamante.jpeg" alt="Rafael Bustamante"
+                                class="avatar-img">
+                        </div>
+                        <h4>Rafael Barrenechea</h4>
+                        <p class="career">Ingeniería de Software</p>
+                    </div>
+                    <!-- Integrante 2 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Leonardo Dextre.jpeg" alt="Leonardo Dextre" class="avatar-img">
+                        </div>
+                        <h4>Leonardo Dextre</h4>
+                        <p class="career">Ingeniería de Software</p>
+                    </div>
+                    <!-- Integrante 3 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Sebastian Caleb.jpeg" alt="Sebastian Caleb" class="avatar-img">
+                        </div>
+                        <h4>Sebastián Garrido</h4>
+                        <p class="career">Ingeniería de Sistemas</p>
+                    </div>
+                    <!-- Integrante 4 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Diego Sebastian.jpeg" alt="Diego Sebastian" class="avatar-img">
+                        </div>
+                        <h4>Diego Romero</h4>
+                        <p class="career">Ingeniería de Software</p>
+                    </div>
+                    <!-- Integrante 5 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Yngrid Ruiz.jpeg" alt="Yngrid Ruiz" class="avatar-img">
+                        </div>
+                        <h4>Yngrid Ruiz</h4>
+                        <p class="career">Ingeniería de Software</p>
+                    </div>
+                    <!-- Integrante 6 -->
+                    <div class="team-card">
+                        <div class="avatar-wrapper">
+                            <img src="images/Carlos Salcedo.jpeg" alt="Carlos Salcedo" class="avatar-img">
+                        </div>
+                        <h4>Carlos Salcedo</h4>
+                        <p class="career">Ingeniería de Software</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Beneficios Segmentados -->
+    <section class="benefits-section" id="beneficios">
+        <div class="container">
+            <div class="section-header text-center scroll-animate">
+                <span class="section-tag">Beneficios</span>
+                <h2>Una solución integral para ambas partes</h2>
+                <p class="section-desc">
+                    OrtoLink se adapta a las necesidades de cada usuario, cerrando la brecha entre el tratamiento
+                    clínico y la recuperación en el hogar.
+                </p>
+            </div>
+
+            <div class="benefits-grid grid-2">
+                <!-- Columna Pacientes -->
+                <div class="benefits-column scroll-animate">
+                    <div class="column-title">
+                        <span class="material-symbols-rounded text-teal">elderly</span>
+                        <h3>Para Pacientes Amputados</h3>
+                    </div>
+                    <div class="cards-list">
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">play_circle</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Rutinas de Ejercicios Guiadas</h4>
+                                <p>Videos interactivos y explicativos diseñados por fisioterapeutas profesionales para
+                                    realizar terapia segura en el hogar.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">calendar_month</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Diario de Dolor Fantasma</h4>
+                                <p>Registra fácilmente la intensidad y frecuencia del dolor para que tu protesista
+                                    comprenda tu evolución sin autodiagnósticos.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">notifications_active</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Alertas de Mantenimiento</h4>
+                                <p>Notificaciones preventivas automáticas sobre el cuidado del socket y revisiones
+                                    técnicas de tu prótesis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Especialistas -->
+                <div class="benefits-column scroll-animate">
+                    <div class="column-title">
+                        <span class="material-symbols-rounded text-blue">clinical_notes</span>
+                        <h3>Para Fisioterapeutas y Protesistas</h3>
+                    </div>
+                    <div class="cards-list">
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">monitoring</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Monitoreo Clínico Remoto</h4>
+                                <p>Dashboard centralizado para supervisar en tiempo real a tus pacientes y recibir
+                                    alertas de baja adherencia.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">query_stats</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Reportes de Evolución Detallados</h4>
+                                <p>Gráficos analíticos generados automáticamente sobre la intensidad del dolor y el
+                                    progreso de movilidad de tus pacientes.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="card-icon">
+                                <span class="material-symbols-rounded">history_toggle_off</span>
+                            </div>
+                            <div class="card-info">
+                                <h4>Optimización de Tiempos Clínicos</h4>
+                                <p>Gestiona y ajusta las prescripciones físicas a distancia, reduciendo las consultas
+                                    presenciales no urgentes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="testimonials-section" id="testimonios">
+        <div class="container grid-2 align-center">
+            <div class="testimonials-media scroll-animate">
+                <div class="testimonial-image-wrapper">
+                    <img src="images/testimonies_group_hug.png"
+                        alt="Grupo de pacientes con prótesis abrazándose" class="testimonial-img">
+                </div>
+            </div>
+            <div class="testimonials-content scroll-animate">
+                <span class="section-tag">Testimonios</span>
+                <h2>Historias de éxito que nos inspiran</h2>
+
+                <div class="testimonial-slider">
+                    <!-- Testimonio 1 -->
+                    <div class="testimonial-item active">
+                        <div class="rating">
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                        </div>
+                        <p class="quote">
+                            "Gracias a las rutinas de OrtoLink y a las alertas de mi prótesis, he vuelto a caminar con
+                            seguridad. Mi fisioterapeuta sabe exactamente cómo voy."
+                        </p>
+                        <div class="author">
+                            <strong>Carlos M.</strong>
+                            <span>Paciente Transtibial (Lima)</span>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="testimonial-item">
+                        <div class="rating">
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                            <span class="material-symbols-rounded fill">star</span>
+                        </div>
+                        <p class="quote">
+                            "OrtoLink me permite ajustar la terapia física de mis pacientes de forma remota y recibir
+                            alertas cuando alguien tiene baja adherencia. Ha mejorado los resultados en un 40%."
+                        </p>
+                        <div class="author">
+                            <strong>Dra. Andrea R.</strong>
+                            <span>Especialista en Medicina Física</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del Slider -->
+                <div class="slider-controls">
+                    <button class="btn-ctrl" id="prevTestimonial" aria-label="Testimonio anterior">
+                        <span class="material-symbols-rounded">chevron_left</span>
+                    </button>
+                    <button class="btn-ctrl" id="nextTestimonial" aria-label="Testimonio siguiente">
+                        <span class="material-symbols-rounded">chevron_right</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Registro (Únete a OrtoLink hoy mismo) -->
+    <section class="registration-section" id="registro">
+        <div class="container grid-2 align-center">
+            <div class="registration-info scroll-animate">
+                <span class="section-tag text-white">Únete Hoy</span>
+                <h2 class="text-white">Únete a OrtoLink hoy mismo</h2>
+                <p class="text-white-muted">
+                    Regístrate en nuestra plataforma y empieza a experimentar una rehabilitación digital conectada y
+                    humana.
+                </p>
+                <div class="reg-benefits-list">
+                    <div class="reg-benefit-item">
+                        <span class="material-symbols-rounded text-teal">check_circle</span>
+                        <span class="text-white">Acceso inmediato a tu dashboard personal</span>
+                    </div>
+                    <div class="reg-benefit-item">
+                        <span class="material-symbols-rounded text-teal">check_circle</span>
+                        <span class="text-white">Soporte técnico continuo 24/7</span>
+                    </div>
+                    <div class="reg-benefit-item">
+                        <span class="material-symbols-rounded text-teal">check_circle</span>
+                        <span class="text-white">Seguridad de datos de nivel médico encriptados</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="registration-form-container scroll-animate">
+                <!-- Toggler de rol de registro -->
+                <div class="role-selector">
+                    <button class="btn-role active" id="btnRolePatient">Soy Paciente</button>
+                    <button class="btn-role" id="btnRoleSpecialist">Soy Especialista</button>
+                </div>
+
+                <!-- Formulario -->
+                <form id="regForm" class="reg-form">
+                    <h3 id="formTitle">Crear mi cuenta de Paciente</h3>
+
+                    <div class="form-group">
+                        <label for="regName">Nombre y Apellidos</label>
+                        <input type="text" id="regName" placeholder="Escribe tu nombre completo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="regEmail">Correo Electrónico</label>
+                        <input type="email" id="regEmail" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="regPassword">Contraseña</label>
+                        <input type="password" id="regPassword" placeholder="Crea una contraseña segura" required
+                            minlength="6">
+                    </div>
+
+                    <!-- Campo dinámico para Paciente -->
+                    <div class="form-group" id="groupAmputation">
+                        <label for="regAmputation">Tipo de Amputación</label>
+                        <select id="regAmputation" required>
+                            <option value="" disabled selected>Selecciona tu tipo de amputación</option>
+                            <option value="transtibial">Transtibial (Bajo la rodilla)</option>
+                            <option value="transfemoral">Transfemoral (Sobre la rodilla)</option>
+                            <option value="brazo">Miembro Superior (Brazo / Mano)</option>
+                            <option value="otro">Otro tipo</option>
+                        </select>
+                    </div>
+
+                    <!-- Campos dinámicos para Especialista (ocultos por defecto) -->
+                    <div class="form-group hidden" id="groupSpecialty">
+                        <label for="regSpecialty">Especialidad</label>
+                        <select id="regSpecialty">
+                            <option value="" disabled selected>Selecciona tu especialidad</option>
+                            <option value="fisioterapia">Fisioterapeuta</option>
+                            <option value="protesista">Protesista</option>
+                            <option value="rehabilitador">Médico Fisiatra / Rehabilitador</option>
+                            <option value="otra">Otra especialidad</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group hidden" id="groupLicense">
+                        <label for="regLicense">Número de Colegiatura Médica</label>
+                        <input type="text" id="regLicense" placeholder="Ingresa tu CTMP o CMP">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" id="btnSubmitForm">Crear mi cuenta</button>
+
+                    <p class="form-notice" id="formNotice"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Consulta / Contacto -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="contact-card scroll-animate">
+                <div class="contact-card-grid">
+                    <div class="contact-info-area">
+                        <h3>¿Surgió alguna duda o consulta?</h3>
+                        <p>Nuestro equipo de soporte técnico y asesores clínicos de Nexocore están listos para ayudarte
+                            en lo que necesites.</p>
+
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <span class="material-symbols-rounded">mail</span>
+                                <span>soporte@nexocore.com.pe</span>
+                            </div>
+                            <div class="method-item">
+                                <span class="material-symbols-rounded">call</span>
+                                <span>+51 1 619-7000</span>
+                            </div>
+                            <div class="method-item">
+                                <span class="material-symbols-rounded">location_on</span>
+                                <span>Santiago de Surco, Lima, Perú</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-area">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="contactName" placeholder="Escribe tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="contactEmail" placeholder="Tu correo electrónico" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contactMessage" rows="4"
+                                    placeholder="Escribe tu consulta detalladamente..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-block">Enviar consulta</button>
+                            <p class="form-notice" id="contactNotice"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página (Footer) -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo-area text-white">
+                    <img src="images/Ortolink logo sin fondo.png" alt="OrtoLink Logo" class="logo-img">
+                    <span class="logo-text">OrtoLink</span>
+                </a>
+                <p class="brand-desc">
+                    Rehabilitación conectada, progreso acompañado. Cerrando la brecha clínica post-protésica en el Perú.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><span class="material-symbols-rounded">public</span></a>
+                    <a href="#" aria-label="LinkedIn"><span class="material-symbols-rounded">group</span></a>
+                    <a href="#" aria-label="YouTube"><span class="material-symbols-rounded">video_library</span></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Enlaces rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal y Términos</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
+                    <li><a href="#">Uso de datos clínicos</a></li>
+                    <li><a href="#">Soporte técnico</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links downloads-links">
+                <h4>Descargas</h4>
+                <div class="store-badges">
+                    <div class="badge-mockup store-ios">
+                        <span class="material-symbols-rounded">phone_iphone</span>
+                        <div>
+                            <span class="subtext">Descargar en</span>
+                            <span class="maintext">App Store</span>
+                        </div>
+                    </div>
+                    <div class="badge-mockup store-android">
+                        <span class="material-symbols-rounded">smart_toy</span>
+                        <div>
+                            <span class="subtext">Disponible en</span>
+                            <span class="maintext">Google Play</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright-area">
+            <p>&copy; 2026 Nexocore S.A. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de interactividad -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
