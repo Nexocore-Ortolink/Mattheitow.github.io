@@ -6,14 +6,14 @@
 
 ## Integrantes del Grupo (Autores)
 
-| Apellidos y nombres | Código | Carrera |
+| Apellidos y nombres | Carrera |
 | :--- | :--- | :--- |
-| Barrenechea Bustamante Rafael Andre | U202417417 | Ingeniería de Software |
-| Dextre Flores Leonardo Felix | U202421823 | Ingeniería de Software |
-| Garrido Tarrillo Sebastian Caleb | U20211B967 | Ingeniería de Sistemas |
-| Romero Zapata Diego Sebastian | U202419638 | Ingeniería de Software |
-| Ruiz Villegas Yngrid Nahir | U20241G022 | Ingeniería de Software |
-| Salcedo Correa Carlos Matthew | U202421065 | Ingeniería de Software |
+| Barrenechea Bustamante Rafael Andre | Ingeniería de Software |
+| Dextre Flores Leonardo Felix | Ingeniería de Software |
+| Garrido Tarrillo Sebastian Caleb | Ingeniería de Sistemas |
+| Romero Zapata Diego Sebastian | Ingeniería de Software |
+| Ruiz Villegas Yngrid Nahir | Ingeniería de Software |
+| Salcedo Correa Carlos Matthew | Ingeniería de Software |
 
 * **Curso:** IHC y Tecnologías Móviles
 * **Docente:** Kevin Edgar Salazar Ruiz
