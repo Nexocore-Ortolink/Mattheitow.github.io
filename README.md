@@ -7,7 +7,7 @@
 ## Integrantes del Grupo (Autores)
 
 | Apellidos y nombres | Carrera |
-| :--- | :--- | :--- |
+|
 | Barrenechea Bustamante Rafael Andre | Ingeniería de Software |
 | Dextre Flores Leonardo Felix | Ingeniería de Software |
 | Garrido Tarrillo Sebastian Caleb | Ingeniería de Sistemas |
