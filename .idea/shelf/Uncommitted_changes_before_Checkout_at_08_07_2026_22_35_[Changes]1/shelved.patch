@@ -1,0 +1,960 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"es\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>OrtoLink - Rehabilitación conectada, progreso acompañado</title>\r\n\r\n    <meta name=\"description\"\r\n        content=\"OrtoLink es la plataforma digital que conecta a pacientes amputados con especialistas en rehabilitación. Rutinas guiadas, diario de dolor y monitoreo remoto.\">\r\n    <meta name=\"keywords\"\r\n        content=\"rehabilitacion, protesis, amputados, dolor fantasma, telemedicina, ortopedia, fisioterapia, peru\">\r\n    <meta name=\"author\" content=\"Nexocore\">\r\n\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\r\n\r\n    <link rel=\"stylesheet\"\r\n        href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap\" />\r\n\r\n    <link rel=\"stylesheet\" href=\"css/style.css?v=1.0.1\">\r\n</head>\r\n\r\n<body>\r\n  \r\n    <header class=\"main-header\" id=\"header\">\r\n        <div class=\"header-container\">\r\n            <a href=\"#inicio\" class=\"logo-area\">\r\n                <img src=\"images/Ortolink logo sin fondo.png\" alt=\"OrtoLink Logo\" class=\"logo-img\">\r\n                <span class=\"logo-text\">OrtoLink</span>\r\n            </a>\r\n\r\n            <button class=\"mobile-menu-toggle\" id=\"menuToggle\" aria-label=\"Abrir menú de navegación\">\r\n                <span class=\"material-symbols-rounded\">menu</span>\r\n            </button>\r\n\r\n            <nav class=\"nav-menu\" id=\"navMenu\">\r\n                <a href=\"#inicio\" class=\"nav-link active\">Inicio</a>\r\n                <a href=\"#sobre-nosotros\" class=\"nav-link\">Sobre Nosotros</a>\r\n                <a href=\"#beneficios\" class=\"nav-link\">Beneficios</a>\r\n                <a href=\"#testimonios\" class=\"nav-link\">Testimonios</a>\r\n                <a href=\"#registro\" class=\"nav-link\">Registro</a>\r\n                <a href=\"login.html\" class=\"nav-link mobile-only-link\">Iniciar Sesión</a>\r\n                <a href=\"#contacto\" class=\"nav-link btn-secondary-nav\">Contáctanos</a>\r\n            </nav>\r\n\r\n            <div class=\"header-actions\">\r\n                <a href=\"login.html\" class=\"btn btn-secondary-outline btn-sm\" style=\"margin-right: 12px;\">Iniciar Sesión</a>\r\n                <a href=\"#registro\" class=\"btn btn-primary btn-sm\">Descargar App</a>\r\n            </div>\r\n        </div>\r\n    </header>\r\n   \r\n    <section class=\"hero-section\" id=\"inicio\">\r\n        <div class=\"container hero-grid\">\r\n            <div class=\"hero-content fade-in\">\r\n                <span class=\"badge\">Rehabilitación Inteligente</span>\r\n                <h1 class=\"hero-title\">Rehabilitación conectada, progreso acompañado.</h1>\r\n                <p class=\"hero-subtitle\">\r\n                    Cierra la brecha en tu proceso de recuperación post-protésica. OrtoLink conecta a pacientes\r\n                    amputados con sus especialistas para un monitoreo continuo, rutinas de movilidad guiadas y control\r\n                    del dolor desde casa.\r\n                </p>\r\n                <div class=\"hero-actions\">\r\n                    <a href=\"#registro\" class=\"btn btn-primary\">Descargar ahora</a>\r\n                    <a href=\"#beneficios\" class=\"btn btn-secondary-outline\">Conocer beneficios</a>\r\n                </div>\r\n            </div>\r\n            <div class=\"hero-media slide-in-right\">\r\n                <div class=\"hero-image-wrapper\">\r\n                    <img src=\"images/hero_woman_waving.png\"\r\n                        alt=\"Paciente con prótesis de brazo sonriendo y saludando\" class=\"hero-img\">\r\n                    <div class=\"experience-card\">\r\n                        <span class=\"material-symbols-rounded icon-badge\">health_and_safety</span>\r\n                        <div class=\"experience-text\">\r\n                            <strong>+40%</strong>\r\n                            <span>Adherencia clínica</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n  \r\n    <section class=\"about-section\" id=\"sobre-nosotros\">\r\n        <div class=\"container\">\r\n            <div class=\"section-header text-center scroll-animate\">\r\n                <span class=\"section-tag\">Sobre Nosotros</span>\r\n                <h2>Conoce a Nexocore</h2>\r\n                <p class=\"section-desc\">\r\n                    Somos un startup tecnológico peruano comprometido con mejorar la calidad de vida de las personas\r\n                    amputadas a través de soluciones digitales accesibles y humanas.\r\n                </p>\r\n            </div>\r\n\r\n            <div class=\"about-mv grid-2 scroll-animate\">\r\n                <div class=\"mv-card mission\">\r\n                    <div class=\"mv-icon-wrapper\">\r\n                        <span class=\"material-symbols-rounded\">track_changes</span>\r\n                    </div>\r\n                    <h3>Nuestra Misión</h3>\r\n                    <p>\r\n                        Ofrecer una plataforma digital accesible e innovadora que permita a personas amputadas gestionar\r\n                        su proceso de rehabilitación de forma integral, promoviendo la autonomía y la conexión efectiva\r\n                        con profesionales de la salud.\r\n                    </p>\r\n                </div>\r\n                <div class=\"mv-card vision\">\r\n                    <div class=\"mv-icon-wrapper\">\r\n                        <span class=\"material-symbols-rounded\">visibility</span>\r\n                    </div>\r\n                    <h3>Nuestra Visión</h3>\r\n                    <p>\r\n                        Consolidarnos como la solución líder en rehabilitación digital en el Perú y Latinoamérica,\r\n                        transformando el modelo de atención post-protésica mediante un acompañamiento continuo,\r\n                        personalizado y humanizado.\r\n                    </p>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"team-area scroll-animate\">\r\n                <h3 class=\"team-title text-center\">Nuestro Equipo de Desarrollo</h3>\r\n                <div class=\"team-grid\">\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Rafael Bustamante.jpeg\" alt=\"Rafael Bustamante\"\r\n                                class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Rafael Barrenechea</h4>\r\n                        <p class=\"career\">Ingeniería de Software</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Leonardo Dextre.jpeg\" alt=\"Leonardo Dextre\" class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Leonardo Dextre</h4>\r\n                        <p class=\"career\">Ingeniería de Software</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Sebastian Caleb.jpeg\" alt=\"Sebastian Caleb\" class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Sebastián Garrido</h4>\r\n                        <p class=\"career\">Ingeniería de Sistemas</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Diego Sebastian.jpeg\" alt=\"Diego Sebastian\" class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Diego Romero</h4>\r\n                        <p class=\"career\">Ingeniería de Software</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Yngrid Ruiz.jpeg\" alt=\"Yngrid Ruiz\" class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Yngrid Ruiz</h4>\r\n                        <p class=\"career\">Ingeniería de Software</p>\r\n                    </div>\r\n                    \r\n                    <div class=\"team-card\">\r\n                        <div class=\"avatar-wrapper\">\r\n                            <img src=\"images/Carlos Salcedo.jpeg\" alt=\"Carlos Salcedo\" class=\"avatar-img\">\r\n                        </div>\r\n                        <h4>Carlos Salcedo</h4>\r\n                        <p class=\"career\">Ingeniería de Software</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n  \r\n    <section class=\"benefits-section\" id=\"beneficios\">\r\n        <div class=\"container\">\r\n            <div class=\"section-header text-center scroll-animate\">\r\n                <span class=\"section-tag\">Beneficios</span>\r\n                <h2>Una solución integral para ambas partes</h2>\r\n                <p class=\"section-desc\">\r\n                    OrtoLink se adapta a las necesidades de cada usuario, cerrando la brecha entre el tratamiento\r\n                    clínico y la recuperación en el hogar.\r\n                </p>\r\n            </div>\r\n\r\n            <div class=\"benefits-grid grid-2\">\r\n                \r\n                <div class=\"benefits-column scroll-animate\">\r\n                    <div class=\"column-title\">\r\n                        <span class=\"material-symbols-rounded text-teal\">elderly</span>\r\n                        <h3>Para Pacientes Amputados</h3>\r\n                    </div>\r\n                    <div class=\"cards-list\">\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">play_circle</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Rutinas de Ejercicios Guiadas</h4>\r\n                                <p>Videos interactivos y explicativos diseñados por fisioterapeutas profesionales para\r\n                                    realizar terapia segura en el hogar.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">calendar_month</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Diario de Dolor Fantasma</h4>\r\n                                <p>Registra fácilmente la intensidad y frecuencia del dolor para que tu protesista\r\n                                    comprenda tu evolución sin autodiagnósticos.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">notifications_active</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Alertas de Mantenimiento</h4>\r\n                                <p>Notificaciones preventivas automáticas sobre el cuidado del socket y revisiones\r\n                                    técnicas de tu prótesis.</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"benefits-column scroll-animate\">\r\n                    <div class=\"column-title\">\r\n                        <span class=\"material-symbols-rounded text-blue\">clinical_notes</span>\r\n                        <h3>Para Fisioterapeutas y Protesistas</h3>\r\n                    </div>\r\n                    <div class=\"cards-list\">\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">monitoring</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Monitoreo Clínico Remoto</h4>\r\n                                <p>Dashboard centralizado para supervisar en tiempo real a tus pacientes y recibir\r\n                                    alertas de baja adherencia.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">query_stats</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Reportes de Evolución Detallados</h4>\r\n                                <p>Gráficos analíticos generados automáticamente sobre la intensidad del dolor y el\r\n                                    progreso de movilidad de tus pacientes.</p>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"benefit-card\">\r\n                            <div class=\"card-icon\">\r\n                                <span class=\"material-symbols-rounded\">history_toggle_off</span>\r\n                            </div>\r\n                            <div class=\"card-info\">\r\n                                <h4>Optimización de Tiempos Clínicos</h4>\r\n                                <p>Gestiona y ajusta las prescripciones físicas a distancia, reduciendo las consultas\r\n                                    presenciales no urgentes.</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"interactive-demo-card scroll-animate\" style=\"margin-top: 56px;\">\r\n                <div class=\"demo-card-grid\">\r\n                    <div class=\"demo-info\">\r\n                        <span class=\"badge\">Prueba la App</span>\r\n                        <h3>Simulador de Bitácora de Dolor</h3>\r\n                        <p>\r\n                            El dolor fantasma y la hipersensibilidad son desafíos reales tras una amputación. Experimenta cómo la bitácora inteligente de OrtoLink registra las crisis de dolor y ofrece recomendaciones clínicas personalizadas al instante.\r\n                        </p>\r\n                        <p style=\"margin-top: 12px; font-size: 0.875rem; color: var(--color-text-muted);\">\r\n                            *Mueve el control deslizante o haz clic sobre los emoticonos para simular una intensidad de dolor en la escala visual analógica (EVA).\r\n                        </p>\r\n                    </div>\r\n                    \r\n                    <div class=\"demo-interactive\">\r\n                        <div class=\"pain-scale-container\" id=\"painScaleCard\">\r\n                            <div class=\"pain-faces\">\r\n                                <span class=\"face active\" data-level=\"1\" title=\"Dolor Leve\">\uD83D\uDE0A</span>\r\n                                <span class=\"face\" data-level=\"3\" title=\"Dolor Moderado\">\uD83D\uDE10</span>\r\n                                <span class=\"face\" data-level=\"5\" title=\"Dolor Severo\">\uD83D\uDE1F</span>\r\n                                <span class=\"face\" data-level=\"7\" title=\"Dolor Muy Severo\">\uD83D\uDE22</span>\r\n                                <span class=\"face\" data-level=\"10\" title=\"Dolor Insoportable\">\uD83D\uDE2B</span>\r\n                            </div>\r\n                            \r\n                            <div class=\"pain-slider-wrapper\">\r\n                                <input type=\"range\" id=\"painSlider\" min=\"1\" max=\"10\" value=\"1\" class=\"pain-slider\" aria-label=\"Escala de dolor de 1 a 10\">\r\n                                <div class=\"pain-value-display\">\r\n                                    Intensidad registrada: <strong id=\"painValueDisplay\">1</strong>/10\r\n                                </div>\r\n                            </div>\r\n                            \r\n                            <div class=\"pain-recommendation\" id=\"painFeedbackBox\">\r\n                                <span class=\"material-symbols-rounded\" id=\"painFeedbackIcon\">check_circle</span>\r\n                                <div>\r\n                                    <strong id=\"painFeedbackTitle\">Nivel 1 - Dolor Leve / Confortable</strong>\r\n                                    <p id=\"painFeedbackDesc\">Tu estado es óptimo. Te sugerimos realizar tu rutina diaria de movilidad ligera (10 min) para mantener la circulación activa en tu miembro residual.</p>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <section class=\"testimonials-section\" id=\"testimonios\">\r\n        <div class=\"container grid-2 align-center\">\r\n            <div class=\"testimonials-media scroll-animate\">\r\n                <div class=\"testimonial-image-wrapper\">\r\n                    <img src=\"images/testimonies_group_hug.png\"\r\n                        alt=\"Grupo de pacientes con prótesis abrazándose\" class=\"testimonial-img\">\r\n                </div>\r\n            </div>\r\n            <div class=\"testimonials-content scroll-animate\">\r\n                <span class=\"section-tag\">Testimonios</span>\r\n                <h2>Historias de éxito que nos inspiran</h2>\r\n\r\n                <div class=\"testimonial-slider\">\r\n                    \r\n                    <div class=\"testimonial-item active\">\r\n                        <div class=\"rating\">\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                        </div>\r\n                        <p class=\"quote\">\r\n                            \"Gracias a las rutinas de OrtoLink y a las alertas de mi prótesis, he vuelto a caminar con\r\n                            seguridad. Mi fisioterapeuta sabe exactamente cómo voy.\"\r\n                        </p>\r\n                        <div class=\"author\">\r\n                            <strong>Carlos M.</strong>\r\n                            <span>Paciente Transtibial (Lima)</span>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"testimonial-item\">\r\n                        <div class=\"rating\">\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                            <span class=\"material-symbols-rounded fill\">star</span>\r\n                        </div>\r\n                        <p class=\"quote\">\r\n                            \"OrtoLink me permite ajustar la terapia física de mis pacientes de forma remota y recibir\r\n                            alertas cuando alguien tiene baja adherencia. Ha mejorado los resultados en un 40%.\"\r\n                        </p>\r\n                        <div class=\"author\">\r\n                            <strong>Dra. Andrea R.</strong>\r\n                            <span>Especialista en Medicina Física</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"slider-controls\">\r\n                    <button class=\"btn-ctrl\" id=\"prevTestimonial\" aria-label=\"Testimonio anterior\">\r\n                        <span class=\"material-symbols-rounded\">chevron_left</span>\r\n                    </button>\r\n                    <button class=\"btn-ctrl\" id=\"nextTestimonial\" aria-label=\"Testimonio siguiente\">\r\n                        <span class=\"material-symbols-rounded\">chevron_right</span>\r\n                    </button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <section class=\"registration-section\" id=\"registro\">\r\n        <div class=\"container grid-2 align-center\">\r\n            <div class=\"registration-info scroll-animate\">\r\n                <span class=\"section-tag text-white\">Únete Hoy</span>\r\n                <h2 class=\"text-white\">Únete a OrtoLink hoy mismo</h2>\r\n                <p class=\"text-white-muted\">\r\n                    Regístrate en nuestra plataforma y empieza a experimentar una rehabilitación digital conectada y\r\n                    humana.\r\n                </p>\r\n                <div class=\"reg-benefits-list\">\r\n                    <div class=\"reg-benefit-item\">\r\n                        <span class=\"material-symbols-rounded text-teal\">check_circle</span>\r\n                        <span class=\"text-white\">Acceso inmediato a tu dashboard personal</span>\r\n                    </div>\r\n                    <div class=\"reg-benefit-item\">\r\n                        <span class=\"material-symbols-rounded text-teal\">check_circle</span>\r\n                        <span class=\"text-white\">Soporte técnico continuo 24/7</span>\r\n                    </div>\r\n                    <div class=\"reg-benefit-item\">\r\n                        <span class=\"material-symbols-rounded text-teal\">check_circle</span>\r\n                        <span class=\"text-white\">Seguridad de datos de nivel médico encriptados</span>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"registration-form-container scroll-animate\">\r\n                \r\n                <div class=\"role-selector\">\r\n                    <button class=\"btn-role active\" id=\"btnRolePatient\">Soy Paciente</button>\r\n                    <button class=\"btn-role\" id=\"btnRoleSpecialist\">Soy Especialista</button>\r\n                </div>\r\n\r\n                <form id=\"regForm\" class=\"reg-form\">\r\n                    <h3 id=\"formTitle\">Crear mi cuenta de Paciente</h3>\r\n\r\n                    <div class=\"form-group\">\r\n                        <label for=\"regName\">Nombre y Apellidos</label>\r\n                        <input type=\"text\" id=\"regName\" placeholder=\"Escribe tu nombre completo\" required>\r\n                    </div>\r\n\r\n                    <div class=\"form-group\">\r\n                        <label for=\"regEmail\">Correo Electrónico</label>\r\n                        <input type=\"email\" id=\"regEmail\" placeholder=\"ejemplo@correo.com\" required>\r\n                    </div>\r\n\r\n                    <div class=\"form-group\">\r\n                        <label for=\"regPassword\">Contraseña</label>\r\n                        <input type=\"password\" id=\"regPassword\" placeholder=\"Crea una contraseña segura\" required\r\n                            minlength=\"6\">\r\n                    </div>\r\n\r\n                    <div class=\"form-group\" id=\"groupAmputation\">\r\n                        <label for=\"regAmputation\">Tipo de Amputación</label>\r\n                        <select id=\"regAmputation\" required>\r\n                            <option value=\"\" disabled selected>Selecciona tu tipo de amputación</option>\r\n                            <option value=\"transtibial\">Transtibial (Bajo la rodilla)</option>\r\n                            <option value=\"transfemoral\">Transfemoral (Sobre la rodilla)</option>\r\n                            <option value=\"brazo\">Miembro Superior (Brazo / Mano)</option>\r\n                            <option value=\"otro\">Otro tipo</option>\r\n                        </select>\r\n                    </div>\r\n\r\n                    <div class=\"form-group hidden\" id=\"groupSpecialty\">\r\n                        <label for=\"regSpecialty\">Especialidad</label>\r\n                        <select id=\"regSpecialty\">\r\n                            <option value=\"\" disabled selected>Selecciona tu especialidad</option>\r\n                            <option value=\"fisioterapia\">Fisioterapeuta</option>\r\n                            <option value=\"protesista\">Protesista</option>\r\n                            <option value=\"rehabilitador\">Médico Fisiatra / Rehabilitador</option>\r\n                            <option value=\"otra\">Otra especialidad</option>\r\n                        </select>\r\n                    </div>\r\n\r\n                    <div class=\"form-group hidden\" id=\"groupLicense\">\r\n                        <label for=\"regLicense\">Número de Colegiatura Médica</label>\r\n                        <input type=\"text\" id=\"regLicense\" placeholder=\"Ingresa tu CTMP o CMP\">\r\n                    </div>\r\n\r\n                    <button type=\"submit\" class=\"btn btn-primary btn-block\" id=\"btnSubmitForm\">Crear mi cuenta</button>\r\n\r\n                    <p class=\"form-notice\" id=\"formNotice\"></p>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    \r\n    <section class=\"faq-section\" id=\"faqs\">\r\n        <div class=\"container\">\r\n            <div class=\"section-header text-center scroll-animate\">\r\n                <span class=\"section-tag\">Preguntas Frecuentes</span>\r\n                <h2>Resolveremos tus dudas</h2>\r\n                <p class=\"section-desc\">\r\n                    ¿Tienes preguntas sobre OrtoLink? Aquí respondemos las dudas más comunes de nuestros pacientes y especialistas.\r\n                </p>\r\n            </div>\r\n\r\n            <div class=\"faq-accordion-container scroll-animate\">\r\n                \r\n                <div class=\"faq-item\">\r\n                    <button class=\"faq-question\" aria-expanded=\"false\">\r\n                        <span>¿Cómo se conecta OrtoLink con mi prótesis?</span>\r\n                        <span class=\"material-symbols-rounded faq-arrow\">expand_more</span>\r\n                    </button>\r\n                    <div class=\"faq-answer\">\r\n                        <div class=\"faq-answer-inner\">\r\n                            <p>\r\n                                OrtoLink no requiere una conexión física directa por cable ni sensores invasivos. La aplicación te permite registrar manualmente el estado y revisiones de tu prótesis y el socket. Además, el algoritmo de la plataforma genera alertas preventivas de mantenimiento basadas en tu tiempo de uso registrado y reportes de comodidad diaria.\r\n                            </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"faq-item\">\r\n                    <button class=\"faq-question\" aria-expanded=\"false\">\r\n                        <span>¿Cómo ayuda OrtoLink en el control del dolor fantasma?</span>\r\n                        <span class=\"material-symbols-rounded faq-arrow\">expand_more</span>\r\n                    </button>\r\n                    <div class=\"faq-answer\">\r\n                        <div class=\"faq-answer-inner\">\r\n                            <p>\r\n                                La plataforma cuenta con un Diario de Dolor Fantasma digital. Los pacientes pueden registrar la intensidad (escala 1-10), frecuencia y tipo de molestia que experimentan. El sistema analiza esta información, ofrece técnicas inmediatas de alivio basadas en evidencia clínica (como ejercicios de respiración, masajes o terapia de espejo) y envía un reporte automatizado a su especialista tratante para ajustar el tratamiento físico.\r\n                            </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"faq-item\">\r\n                    <button class=\"faq-question\" aria-expanded=\"false\">\r\n                        <span>Soy especialista, ¿cómo puedo ver el progreso de mis pacientes?</span>\r\n                        <span class=\"material-symbols-rounded faq-arrow\">expand_more</span>\r\n                    </button>\r\n                    <div class=\"faq-answer\">\r\n                        <div class=\"faq-answer-inner\">\r\n                            <p>\r\n                                Al registrarte como especialista y ser verificado por nuestro equipo médico, accedes a un panel de control clínico (Dashboard). Desde allí puedes visualizar en tiempo real gráficos sobre la adherencia a los ejercicios de tus pacientes, la curva de dolor fantasma y alertas en caso de que algún paciente reporte una disminución significativa en su movilidad o confort del socket.\r\n                            </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"faq-item\">\r\n                    <button class=\"faq-question\" aria-expanded=\"false\">\r\n                        <span>¿Mis datos médicos y reportes clínicos están seguros?</span>\r\n                        <span class=\"material-symbols-rounded faq-arrow\">expand_more</span>\r\n                    </button>\r\n                    <div class=\"faq-answer\">\r\n                        <div class=\"faq-answer-inner\">\r\n                            <p>\r\n                                Absolutamente. En Nexocore nos tomamos muy en serio la privacidad clínica. Toda la información personal y los reportes de salud registrados en OrtoLink están encriptados de extremo a extremo y son almacenados bajo normativas de seguridad de nivel médico (cumpliendo con estándares internacionales de protección de datos de salud), garantizando que solo tú y tu especialista autorizado puedan verlos.\r\n                            </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <section class=\"contact-section\" id=\"contacto\">\r\n        <div class=\"container\">\r\n            <div class=\"contact-card scroll-animate\">\r\n                <div class=\"contact-card-grid\">\r\n                    <div class=\"contact-info-area\">\r\n                        <h3>¿Surgió alguna duda o consulta?</h3>\r\n                        <p>Nuestro equipo de soporte técnico y asesores clínicos de Nexocore están listos para ayudarte\r\n                            en lo que necesites.</p>\r\n\r\n                        <div class=\"contact-methods\">\r\n                            <div class=\"method-item\">\r\n                                <span class=\"material-symbols-rounded\">mail</span>\r\n                                <span>soporte@nexocore.com.pe</span>\r\n                            </div>\r\n                            <div class=\"method-item\">\r\n                                <span class=\"material-symbols-rounded\">call</span>\r\n                                <span>+51 1 619-7000</span>\r\n                            </div>\r\n                            <div class=\"method-item\">\r\n                                <span class=\"material-symbols-rounded\">location_on</span>\r\n                                <span>Santiago de Surco, Lima, Perú</span>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"contact-form-area\">\r\n                        <form id=\"contactForm\" class=\"contact-form\">\r\n                            <div class=\"form-group\">\r\n                                <input type=\"text\" id=\"contactName\" placeholder=\"Escribe tu nombre\" required>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <input type=\"email\" id=\"contactEmail\" placeholder=\"Tu correo electrónico\" required>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <textarea id=\"contactMessage\" rows=\"4\"\r\n                                    placeholder=\"Escribe tu consulta detalladamente...\" required></textarea>\r\n                            </div>\r\n                            <button type=\"submit\" class=\"btn btn-secondary btn-block\">Enviar consulta</button>\r\n                            <p class=\"form-notice\" id=\"contactNotice\"></p>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n   \r\n    <footer class=\"main-footer\">\r\n        <div class=\"container footer-grid\">\r\n            <div class=\"footer-brand\">\r\n                <a href=\"#inicio\" class=\"logo-area text-white\">\r\n                    <img src=\"images/Ortolink logo sin fondo.png\" alt=\"OrtoLink Logo\" class=\"logo-img\">\r\n                    <span class=\"logo-text\">OrtoLink</span>\r\n                </a>\r\n                <p class=\"brand-desc\">\r\n                    Rehabilitación conectada, progreso acompañado. Cerrando la brecha clínica post-protésica en el Perú.\r\n                </p>\r\n                <div class=\"social-links\">\r\n                    <a href=\"#\" aria-label=\"Facebook\"><span class=\"material-symbols-rounded\">public</span></a>\r\n                    <a href=\"#\" aria-label=\"LinkedIn\"><span class=\"material-symbols-rounded\">group</span></a>\r\n                    <a href=\"#\" aria-label=\"YouTube\"><span class=\"material-symbols-rounded\">video_library</span></a>\r\n                </div>\r\n            </div>\r\n\r\n            <div class=\"footer-links\">\r\n                <h4>Enlaces rápidos</h4>\r\n                <ul>\r\n                    <li><a href=\"#inicio\">Inicio</a></li>\r\n                    <li><a href=\"#sobre-nosotros\">Sobre Nosotros</a></li>\r\n                    <li><a href=\"#beneficios\">Beneficios</a></li>\r\n                    <li><a href=\"#testimonios\">Testimonios</a></li>\r\n                </ul>\r\n            </div>\r\n\r\n            <div class=\"footer-links\">\r\n                <h4>Legal y Términos</h4>\r\n                <ul>\r\n                    <li><a href=\"#\" class=\"legal-link\" data-legal=\"terms\">Términos y condiciones</a></li>\r\n                    <li><a href=\"#\" class=\"legal-link\" data-legal=\"privacy\">Políticas de privacidad</a></li>\r\n                    <li><a href=\"#\" class=\"legal-link\" data-legal=\"data\">Uso de datos clínicos</a></li>\r\n                    <li><a href=\"#\" class=\"legal-link\" data-legal=\"support\">Soporte técnico</a></li>\r\n                </ul>\r\n            </div>\r\n\r\n            <div class=\"footer-links downloads-links\">\r\n                <h4>Descargas</h4>\r\n                <div class=\"store-badges\">\r\n                    <div class=\"badge-mockup store-ios\">\r\n                        <span class=\"material-symbols-rounded\">phone_iphone</span>\r\n                        <div>\r\n                            <span class=\"subtext\">Descargar en</span>\r\n                            <span class=\"maintext\">App Store</span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"badge-mockup store-android\">\r\n                        <span class=\"material-symbols-rounded\">smart_toy</span>\r\n                        <div>\r\n                            <span class=\"subtext\">Disponible en</span>\r\n                            <span class=\"maintext\">Google Play</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <div class=\"container copyright-area\">\r\n            <p>&copy; 2026 Nexocore S.A. Todos los derechos reservados.</p>\r\n        </div>\r\n    </footer>\r\n\r\n    <div class=\"modal-overlay hidden\" id=\"legalModal\">\r\n        <div class=\"modal-card\">\r\n            <button class=\"modal-close\" id=\"btnCloseLegal\" aria-label=\"Cerrar modal\">\r\n                <span class=\"material-symbols-rounded\">close</span>\r\n            </button>\r\n            <div class=\"modal-header-login\">\r\n                <span class=\"material-symbols-rounded\" id=\"legalIcon\">policy</span>\r\n                <h3 id=\"legalTitle\">Documento Legal</h3>\r\n            </div>\r\n            <div class=\"legal-content-body\" id=\"legalContent\">\r\n                \r\n            </div>\r\n            <button class=\"btn btn-primary\" id=\"btnAcceptLegal\" style=\"width: 100%;\">Cerrar y Aceptar</button>\r\n        </div>\r\n    </div>\r\n   \r\n    <script src=\"js/script.js\"></script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 3859069ab3acc12da58d127dfac2711cdb49ea12)
++++ b/index.html	(date 1783558345361)
+@@ -19,11 +19,12 @@
+     <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" />
+ 
++    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="stylesheet" href="css/style.css?v=1.0.1">
+ </head>
+ 
+ <body>
+-  
++
+     <header class="main-header" id="header">
+         <div class="header-container">
+             <a href="#inicio" class="logo-area">
+@@ -46,12 +47,13 @@
+             </nav>
+ 
+             <div class="header-actions">
+-                <a href="login.html" class="btn btn-secondary-outline btn-sm" style="margin-right: 12px;">Iniciar Sesión</a>
++                <a href="login.html" class="btn btn-secondary-outline btn-sm" style="margin-right: 12px;">Iniciar
++                    Sesión</a>
+                 <a href="#registro" class="btn btn-primary btn-sm">Descargar App</a>
+             </div>
+         </div>
+     </header>
+-   
++
+     <section class="hero-section" id="inicio">
+         <div class="container hero-grid">
+             <div class="hero-content fade-in">
+@@ -69,20 +71,15 @@
+             </div>
+             <div class="hero-media slide-in-right">
+                 <div class="hero-image-wrapper">
+-                    <img src="images/hero_woman_waving.png"
+-                        alt="Paciente con prótesis de brazo sonriendo y saludando" class="hero-img">
+-                    <div class="experience-card">
+-                        <span class="material-symbols-rounded icon-badge">health_and_safety</span>
+-                        <div class="experience-text">
+-                            <strong>+40%</strong>
+-                            <span>Adherencia clínica</span>
+-                        </div>
+-                    </div>
++                    <video id="heroVideo" class="hero-video" muted loop playsinline preload="auto">
++                        <source src="images/ortolink video.mp4" type="video/mp4">
++                        Tu navegador no soporta el elemento de video.
++                    </video>
+                 </div>
+             </div>
+         </div>
+     </section>
+-  
++
+     <section class="about-section" id="sobre-nosotros">
+         <div class="container">
+             <div class="section-header text-center scroll-animate">
+@@ -122,16 +119,15 @@
+             <div class="team-area scroll-animate">
+                 <h3 class="team-title text-center">Nuestro Equipo de Desarrollo</h3>
+                 <div class="team-grid">
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+-                            <img src="images/Rafael Bustamante.jpeg" alt="Rafael Bustamante"
+-                                class="avatar-img">
++                            <img src="images/Rafael Bustamante.jpeg" alt="Rafael Bustamante" class="avatar-img">
+                         </div>
+                         <h4>Rafael Barrenechea</h4>
+                         <p class="career">Ingeniería de Software</p>
+                     </div>
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+                             <img src="images/Leonardo Dextre.jpeg" alt="Leonardo Dextre" class="avatar-img">
+@@ -139,7 +135,7 @@
+                         <h4>Leonardo Dextre</h4>
+                         <p class="career">Ingeniería de Software</p>
+                     </div>
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+                             <img src="images/Sebastian Caleb.jpeg" alt="Sebastian Caleb" class="avatar-img">
+@@ -147,7 +143,7 @@
+                         <h4>Sebastián Garrido</h4>
+                         <p class="career">Ingeniería de Sistemas</p>
+                     </div>
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+                             <img src="images/Diego Sebastian.jpeg" alt="Diego Sebastian" class="avatar-img">
+@@ -155,7 +151,7 @@
+                         <h4>Diego Romero</h4>
+                         <p class="career">Ingeniería de Software</p>
+                     </div>
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+                             <img src="images/Yngrid Ruiz.jpeg" alt="Yngrid Ruiz" class="avatar-img">
+@@ -163,7 +159,7 @@
+                         <h4>Yngrid Ruiz</h4>
+                         <p class="career">Ingeniería de Software</p>
+                     </div>
+-                    
++
+                     <div class="team-card">
+                         <div class="avatar-wrapper">
+                             <img src="images/Carlos Salcedo.jpeg" alt="Carlos Salcedo" class="avatar-img">
+@@ -175,7 +171,7 @@
+             </div>
+         </div>
+     </section>
+-  
++
+     <section class="benefits-section" id="beneficios">
+         <div class="container">
+             <div class="section-header text-center scroll-animate">
+@@ -188,7 +184,7 @@
+             </div>
+ 
+             <div class="benefits-grid grid-2">
+-                
++
+                 <div class="benefits-column scroll-animate">
+                     <div class="column-title">
+                         <span class="material-symbols-rounded text-teal">elderly</span>
+@@ -274,35 +270,46 @@
+                         <span class="badge">Prueba la App</span>
+                         <h3>Simulador de Bitácora de Dolor</h3>
+                         <p>
+-                            El dolor fantasma y la hipersensibilidad son desafíos reales tras una amputación. Experimenta cómo la bitácora inteligente de OrtoLink registra las crisis de dolor y ofrece recomendaciones clínicas personalizadas al instante.
++                            El dolor fantasma y la hipersensibilidad son desafíos reales tras una amputación.
++                            Experimenta cómo la bitácora inteligente de OrtoLink registra las crisis de dolor y ofrece
++                            recomendaciones clínicas personalizadas al instante.
+                         </p>
+                         <p style="margin-top: 12px; font-size: 0.875rem; color: var(--color-text-muted);">
+-                            *Mueve el control deslizante o haz clic sobre los emoticonos para simular una intensidad de dolor en la escala visual analógica (EVA).
++                            *Mueve el control deslizante o haz clic sobre los rostros para simular una intensidad de
++                            dolor en la escala visual analógica (EVA).
+                         </p>
+                     </div>
+-                    
++
+                     <div class="demo-interactive">
+                         <div class="pain-scale-container" id="painScaleCard">
+                             <div class="pain-faces">
+-                                <span class="face active" data-level="1" title="Dolor Leve">😊</span>
+-                                <span class="face" data-level="3" title="Dolor Moderado">😐</span>
+-                                <span class="face" data-level="5" title="Dolor Severo">😟</span>
+-                                <span class="face" data-level="7" title="Dolor Muy Severo">😢</span>
+-                                <span class="face" data-level="10" title="Dolor Insoportable">😫</span>
++                                <span class="face active material-symbols-rounded" data-level="1"
++                                    title="Dolor Leve">sentiment_satisfied</span>
++                                <span class="face material-symbols-rounded" data-level="3"
++                                    title="Dolor Moderado">sentiment_neutral</span>
++                                <span class="face material-symbols-rounded" data-level="5"
++                                    title="Dolor Severo">sentiment_dissatisfied</span>
++                                <span class="face material-symbols-rounded" data-level="7"
++                                    title="Dolor Muy Severo">sentiment_very_dissatisfied</span>
++                                <span class="face material-symbols-rounded" data-level="10"
++                                    title="Dolor Insoportable">mood_bad</span>
+                             </div>
+-                            
++
+                             <div class="pain-slider-wrapper">
+-                                <input type="range" id="painSlider" min="1" max="10" value="1" class="pain-slider" aria-label="Escala de dolor de 1 a 10">
++                                <input type="range" id="painSlider" min="1" max="10" value="1" class="pain-slider"
++                                    aria-label="Escala de dolor de 1 a 10">
+                                 <div class="pain-value-display">
+                                     Intensidad registrada: <strong id="painValueDisplay">1</strong>/10
+                                 </div>
+                             </div>
+-                            
++
+                             <div class="pain-recommendation" id="painFeedbackBox">
+                                 <span class="material-symbols-rounded" id="painFeedbackIcon">check_circle</span>
+                                 <div>
+                                     <strong id="painFeedbackTitle">Nivel 1 - Dolor Leve / Confortable</strong>
+-                                    <p id="painFeedbackDesc">Tu estado es óptimo. Te sugerimos realizar tu rutina diaria de movilidad ligera (10 min) para mantener la circulación activa en tu miembro residual.</p>
++                                    <p id="painFeedbackDesc">Tu estado es óptimo. Te sugerimos realizar tu rutina diaria
++                                        de movilidad ligera (10 min) para mantener la circulación activa en tu miembro
++                                        residual.</p>
+                                 </div>
+                             </div>
+                         </div>
+@@ -316,8 +323,8 @@
+         <div class="container grid-2 align-center">
+             <div class="testimonials-media scroll-animate">
+                 <div class="testimonial-image-wrapper">
+-                    <img src="images/testimonies_group_hug.png"
+-                        alt="Grupo de pacientes con prótesis abrazándose" class="testimonial-img">
++                    <img src="images/testimonies_group_hug.png" alt="Grupo de pacientes con prótesis abrazándose"
++                        class="testimonial-img">
+                 </div>
+             </div>
+             <div class="testimonials-content scroll-animate">
+@@ -325,7 +332,7 @@
+                 <h2>Historias de éxito que nos inspiran</h2>
+ 
+                 <div class="testimonial-slider">
+-                    
++
+                     <div class="testimonial-item active">
+                         <div class="rating">
+                             <span class="material-symbols-rounded fill">star</span>
+@@ -401,7 +408,7 @@
+             </div>
+ 
+             <div class="registration-form-container scroll-animate">
+-                
++
+                 <div class="role-selector">
+                     <button class="btn-role active" id="btnRolePatient">Soy Paciente</button>
+                     <button class="btn-role" id="btnRoleSpecialist">Soy Especialista</button>
+@@ -460,19 +467,20 @@
+             </div>
+         </div>
+     </section>
+-    
++
+     <section class="faq-section" id="faqs">
+         <div class="container">
+             <div class="section-header text-center scroll-animate">
+                 <span class="section-tag">Preguntas Frecuentes</span>
+                 <h2>Resolveremos tus dudas</h2>
+                 <p class="section-desc">
+-                    ¿Tienes preguntas sobre OrtoLink? Aquí respondemos las dudas más comunes de nuestros pacientes y especialistas.
++                    ¿Tienes preguntas sobre OrtoLink? Aquí respondemos las dudas más comunes de nuestros pacientes y
++                    especialistas.
+                 </p>
+             </div>
+ 
+             <div class="faq-accordion-container scroll-animate">
+-                
++
+                 <div class="faq-item">
+                     <button class="faq-question" aria-expanded="false">
+                         <span>¿Cómo se conecta OrtoLink con mi prótesis?</span>
+@@ -481,7 +489,10 @@
+                     <div class="faq-answer">
+                         <div class="faq-answer-inner">
+                             <p>
+-                                OrtoLink no requiere una conexión física directa por cable ni sensores invasivos. La aplicación te permite registrar manualmente el estado y revisiones de tu prótesis y el socket. Además, el algoritmo de la plataforma genera alertas preventivas de mantenimiento basadas en tu tiempo de uso registrado y reportes de comodidad diaria.
++                                OrtoLink no requiere una conexión física directa por cable ni sensores invasivos. La
++                                aplicación te permite registrar manualmente el estado y revisiones de tu prótesis y el
++                                socket. Además, el algoritmo de la plataforma genera alertas preventivas de
++                                mantenimiento basadas en tu tiempo de uso registrado y reportes de comodidad diaria.
+                             </p>
+                         </div>
+                     </div>
+@@ -495,7 +506,11 @@
+                     <div class="faq-answer">
+                         <div class="faq-answer-inner">
+                             <p>
+-                                La plataforma cuenta con un Diario de Dolor Fantasma digital. Los pacientes pueden registrar la intensidad (escala 1-10), frecuencia y tipo de molestia que experimentan. El sistema analiza esta información, ofrece técnicas inmediatas de alivio basadas en evidencia clínica (como ejercicios de respiración, masajes o terapia de espejo) y envía un reporte automatizado a su especialista tratante para ajustar el tratamiento físico.
++                                La plataforma cuenta con un Diario de Dolor Fantasma digital. Los pacientes pueden
++                                registrar la intensidad (escala 1-10), frecuencia y tipo de molestia que experimentan.
++                                El sistema analiza esta información, ofrece técnicas inmediatas de alivio basadas en
++                                evidencia clínica (como ejercicios de respiración, masajes o terapia de espejo) y envía
++                                un reporte automatizado a su especialista tratante para ajustar el tratamiento físico.
+                             </p>
+                         </div>
+                     </div>
+@@ -509,7 +524,11 @@
+                     <div class="faq-answer">
+                         <div class="faq-answer-inner">
+                             <p>
+-                                Al registrarte como especialista y ser verificado por nuestro equipo médico, accedes a un panel de control clínico (Dashboard). Desde allí puedes visualizar en tiempo real gráficos sobre la adherencia a los ejercicios de tus pacientes, la curva de dolor fantasma y alertas en caso de que algún paciente reporte una disminución significativa en su movilidad o confort del socket.
++                                Al registrarte como especialista y ser verificado por nuestro equipo médico, accedes a
++                                un panel de control clínico (Dashboard). Desde allí puedes visualizar en tiempo real
++                                gráficos sobre la adherencia a los ejercicios de tus pacientes, la curva de dolor
++                                fantasma y alertas en caso de que algún paciente reporte una disminución significativa
++                                en su movilidad o confort del socket.
+                             </p>
+                         </div>
+                     </div>
+@@ -523,7 +542,11 @@
+                     <div class="faq-answer">
+                         <div class="faq-answer-inner">
+                             <p>
+-                                Absolutamente. En Nexocore nos tomamos muy en serio la privacidad clínica. Toda la información personal y los reportes de salud registrados en OrtoLink están encriptados de extremo a extremo y son almacenados bajo normativas de seguridad de nivel médico (cumpliendo con estándares internacionales de protección de datos de salud), garantizando que solo tú y tu especialista autorizado puedan verlos.
++                                Absolutamente. En Nexocore nos tomamos muy en serio la privacidad clínica. Toda la
++                                información personal y los reportes de salud registrados en OrtoLink están encriptados
++                                de extremo a extremo y son almacenados bajo normativas de seguridad de nivel médico
++                                (cumpliendo con estándares internacionales de protección de datos de salud),
++                                garantizando que solo tú y tu especialista autorizado puedan verlos.
+                             </p>
+                         </div>
+                     </div>
+@@ -577,7 +600,7 @@
+             </div>
+         </div>
+     </section>
+-   
++
+     <footer class="main-footer">
+         <div class="container footer-grid">
+             <div class="footer-brand">
+@@ -589,9 +612,9 @@
+                     Rehabilitación conectada, progreso acompañado. Cerrando la brecha clínica post-protésica en el Perú.
+                 </p>
+                 <div class="social-links">
+-                    <a href="#" aria-label="Facebook"><span class="material-symbols-rounded">public</span></a>
+-                    <a href="#" aria-label="LinkedIn"><span class="material-symbols-rounded">group</span></a>
+-                    <a href="#" aria-label="YouTube"><span class="material-symbols-rounded">video_library</span></a>
++                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
++                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
++                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-square-whatsapp"></i></a>
+                 </div>
+             </div>
+ 
+@@ -619,14 +642,14 @@
+                 <h4>Descargas</h4>
+                 <div class="store-badges">
+                     <div class="badge-mockup store-ios">
+-                        <span class="material-symbols-rounded">phone_iphone</span>
++                        <i class="fa-brands fa-apple"></i>
+                         <div>
+                             <span class="subtext">Descargar en</span>
+                             <span class="maintext">App Store</span>
+                         </div>
+                     </div>
+                     <div class="badge-mockup store-android">
+-                        <span class="material-symbols-rounded">smart_toy</span>
++                        <i class="fa-brands fa-android"></i>
+                         <div>
+                             <span class="subtext">Disponible en</span>
+                             <span class="maintext">Google Play</span>
+@@ -651,12 +674,12 @@
+                 <h3 id="legalTitle">Documento Legal</h3>
+             </div>
+             <div class="legal-content-body" id="legalContent">
+-                
++
+             </div>
+             <button class="btn btn-primary" id="btnAcceptLegal" style="width: 100%;">Cerrar y Aceptar</button>
+         </div>
+     </div>
+-   
++
+     <script src="js/script.js"></script>
+ </body>
+ 
+Index: login.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"es\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Iniciar Sesión - OrtoLink</title>\r\n    <meta name=\"description\" content=\"Inicia sesión en tu cuenta de OrtoLink para continuar con tu proceso de rehabilitación o monitoreo clínico.\">\r\n    <meta name=\"author\" content=\"Nexocore\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap\" />\r\n    <link rel=\"stylesheet\" href=\"css/style.css?v=1.0.1\">\r\n</head>\r\n\r\n<body class=\"login-page-body\">\r\n    <div class=\"login-page-container\">\r\n        <main class=\"login-card\">\r\n            <a href=\"index.html\" class=\"btn-login-back\" aria-label=\"Volver a la página principal\">\r\n                <span class=\"material-symbols-rounded\">arrow_back</span>\r\n                <span>Volver al inicio</span>\r\n            </a>\r\n            <div class=\"login-card-header\">\r\n                <img src=\"images/Ortolink logo sin fondo.png\" alt=\"OrtoLink Logo\" class=\"login-logo\">\r\n                <h1>Iniciar Sesión</h1>\r\n                <p>Ingresa tus credenciales para acceder a la plataforma</p>\r\n            </div>\r\n            <div class=\"role-selector login-role\">\r\n                <button class=\"btn-role-login active\" id=\"btnLoginRolePatient\" type=\"button\">Soy Paciente</button>\r\n                <button class=\"btn-role-login\" id=\"btnLoginRoleSpecialist\" type=\"button\">Soy Especialista</button>\r\n            </div>\r\n            <form id=\"loginForm\" class=\"login-form\">\r\n                <div class=\"form-group\">\r\n                    <label for=\"loginEmail\">Correo Electrónico</label>\r\n                    <input type=\"email\" id=\"loginEmail\" placeholder=\"ejemplo@correo.com\" required autocomplete=\"email\">\r\n                </div>\r\n                <div class=\"form-group\">\r\n                    <label for=\"loginPassword\">Contraseña</label>\r\n                    <input type=\"password\" id=\"loginPassword\" placeholder=\"Ingresa tu contraseña\" required autocomplete=\"current-password\">\r\n                </div>\r\n                <button type=\"submit\" class=\"btn btn-primary btn-block\">Ingresar</button>\r\n                <p class=\"form-notice\" id=\"loginNotice\"></p>\r\n            </form>\r\n            <div class=\"login-card-footer\">\r\n                <p>¿No tienes una cuenta? <a href=\"index.html#registro\" id=\"linkToRegister\">Regístrate aquí</a></p>\r\n            </div>\r\n        </main>\r\n    </div>\r\n    <script src=\"js/login.js\"></script>\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/login.html b/login.html
+--- a/login.html	(revision 3859069ab3acc12da58d127dfac2711cdb49ea12)
++++ b/login.html	(date 1783558343943)
+@@ -5,12 +5,14 @@
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Iniciar Sesión - OrtoLink</title>
+-    <meta name="description" content="Inicia sesión en tu cuenta de OrtoLink para continuar con tu proceso de rehabilitación o monitoreo clínico.">
++    <meta name="description"
++        content="Inicia sesión en tu cuenta de OrtoLink para continuar con tu proceso de rehabilitación o monitoreo clínico.">
+     <meta name="author" content="Nexocore">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" />
++    <link rel="stylesheet"
++        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" />
+     <link rel="stylesheet" href="css/style.css?v=1.0.1">
+ </head>
+ 
+@@ -37,7 +39,8 @@
+                 </div>
+                 <div class="form-group">
+                     <label for="loginPassword">Contraseña</label>
+-                    <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña" required autocomplete="current-password">
++                    <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña" required
++                        autocomplete="current-password">
+                 </div>
+                 <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                 <p class="form-notice" id="loginNotice"></p>
+@@ -50,4 +53,4 @@
+     <script src="js/login.js"></script>
+ </body>
+ 
+-</html>
++</html>
+\ No newline at end of file
+Index: js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>document.addEventListener(\"DOMContentLoaded\", () => {\r\n\r\n    const menuToggle = document.getElementById(\"menuToggle\");\r\n    const navMenu = document.getElementById(\"navMenu\");\r\n    const navLinks = document.querySelectorAll(\".nav-link\");\r\n\r\n    if (menuToggle && navMenu) {\r\n        menuToggle.addEventListener(\"click\", () => {\r\n            navMenu.classList.toggle(\"active\");\r\n            \r\n            const icon = menuToggle.querySelector(\"span\");\r\n            if (navMenu.classList.contains(\"active\")) {\r\n                icon.textContent = \"close\";\r\n            } else {\r\n                icon.textContent = \"menu\";\r\n            }\r\n        });\r\n\r\n        navLinks.forEach(link => {\r\n            link.addEventListener(\"click\", () => {\r\n                navMenu.classList.remove(\"active\");\r\n                const icon = menuToggle.querySelector(\"span\");\r\n                icon.textContent = \"menu\";\r\n            });\r\n        });\r\n    }\r\n\r\n    const header = document.getElementById(\"header\");\r\n    window.addEventListener(\"scroll\", () => {\r\n        if (window.scrollY > 50) {\r\n            header.classList.add(\"scrolled\");\r\n        } else {\r\n            header.classList.remove(\"scrolled\");\r\n        }\r\n    });\r\n\r\n    const sections = document.querySelectorAll(\"section\");\r\n    \r\n    window.addEventListener(\"scroll\", () => {\r\n        let currentSection = \"\";\r\n        \r\n        sections.forEach(section => {\r\n            const sectionTop = section.offsetTop - 100;\r\n            const sectionHeight = section.clientHeight;\r\n            if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {\r\n                currentSection = section.getAttribute(\"id\");\r\n            }\r\n        });\r\n\r\n        navLinks.forEach(link => {\r\n            link.classList.remove(\"active\");\r\n            if (link.getAttribute(\"href\") === `#${currentSection}`) {\r\n                link.classList.add(\"active\");\r\n            }\r\n        });\r\n    });\r\n\r\n    const testimonials = document.querySelectorAll(\".testimonial-item\");\r\n    const prevBtn = document.getElementById(\"prevTestimonial\");\r\n    const nextBtn = document.getElementById(\"nextTestimonial\");\r\n    let currentIdx = 0;\r\n\r\n    function showTestimonial(idx) {\r\n        testimonials.forEach(t => t.classList.remove(\"active\"));\r\n        testimonials[idx].classList.add(\"active\");\r\n    }\r\n\r\n    if (prevBtn && nextBtn && testimonials.length > 0) {\r\n        nextBtn.addEventListener(\"click\", () => {\r\n            currentIdx = (currentIdx + 1) % testimonials.length;\r\n            showTestimonial(currentIdx);\r\n        });\r\n\r\n        prevBtn.addEventListener(\"click\", () => {\r\n            currentIdx = (currentIdx - 1 + testimonials.length) % testimonials.length;\r\n            showTestimonial(currentIdx);\r\n        });\r\n    }\r\n\r\n    const btnPatient = document.getElementById(\"btnRolePatient\");\r\n    const btnSpecialist = document.getElementById(\"btnRoleSpecialist\");\r\n    const formTitle = document.getElementById(\"formTitle\");\r\n    const btnSubmit = document.getElementById(\"btnSubmitForm\");\r\n    \r\n    const groupAmputation = document.getElementById(\"groupAmputation\");\r\n    const groupSpecialty = document.getElementById(\"groupSpecialty\");\r\n    const groupLicense = document.getElementById(\"groupLicense\");\r\n    \r\n    const selectAmputation = document.getElementById(\"regAmputation\");\r\n    const selectSpecialty = document.getElementById(\"regSpecialty\");\r\n    const inputLicense = document.getElementById(\"regLicense\");\r\n    \r\n    let activeRole = \"paciente\";\r\n\r\n    if (btnPatient && btnSpecialist) {\r\n        btnPatient.addEventListener(\"click\", () => {\r\n            if (activeRole === \"paciente\") return;\r\n            activeRole = \"paciente\";\r\n            \r\n            btnPatient.classList.add(\"active\");\r\n            btnSpecialist.classList.remove(\"active\");\r\n            \r\n            formTitle.textContent = \"Crear mi cuenta de Paciente\";\r\n            btnSubmit.textContent = \"Crear mi cuenta\";\r\n            \r\n            groupAmputation.classList.remove(\"hidden\");\r\n            groupAmputation.classList.remove(\"fade-in-slide\");\r\n            void groupAmputation.offsetWidth;\r\n            groupAmputation.classList.add(\"fade-in-slide\");\r\n            \r\n            groupSpecialty.classList.add(\"hidden\");\r\n            groupLicense.classList.add(\"hidden\");\r\n            \r\n            selectAmputation.required = true;\r\n            selectSpecialty.required = false;\r\n            inputLicense.required = false;\r\n        });\r\n\r\n        btnSpecialist.addEventListener(\"click\", () => {\r\n            if (activeRole === \"especialista\") return;\r\n            activeRole = \"especialista\";\r\n            \r\n            btnSpecialist.classList.add(\"active\");\r\n            btnPatient.classList.remove(\"active\");\r\n            \r\n            formTitle.textContent = \"Registrarme como Especialista\";\r\n            btnSubmit.textContent = \"Registrarse como especialista\";\r\n            \r\n            groupAmputation.classList.add(\"hidden\");\r\n            \r\n            groupSpecialty.classList.remove(\"hidden\");\r\n            groupSpecialty.classList.remove(\"fade-in-slide\");\r\n            void groupSpecialty.offsetWidth;\r\n            groupSpecialty.classList.add(\"fade-in-slide\");\r\n            \r\n            groupLicense.classList.remove(\"hidden\");\r\n            groupLicense.classList.remove(\"fade-in-slide\");\r\n            void groupLicense.offsetWidth;\r\n            groupLicense.classList.add(\"fade-in-slide\");\r\n            \r\n            selectAmputation.required = false;\r\n            selectSpecialty.required = true;\r\n            inputLicense.required = true;\r\n        });\r\n    }\r\n\r\n    const regForm = document.getElementById(\"regForm\");\r\n    const formNotice = document.getElementById(\"formNotice\");\r\n\r\n    if (regForm && formNotice) {\r\n        regForm.addEventListener(\"submit\", (e) => {\r\n            e.preventDefault();\r\n            \r\n            formNotice.className = \"form-notice success\";\r\n            \r\n            if (activeRole === \"paciente\") {\r\n                formNotice.textContent = \"Cuenta creada exitosamente. Redirigiendo al onboarding...\";\r\n            } else {\r\n                formNotice.textContent = \"Cuenta de especialista creada. Pendiente de verificación por nuestro equipo médico.\";\r\n            }\r\n            \r\n            regForm.reset();\r\n            \r\n            setTimeout(() => {\r\n                formNotice.textContent = \"\";\r\n            }, 5000);\r\n        });\r\n    }\r\n\r\n    const contactForm = document.getElementById(\"contactForm\");\r\n    const contactNotice = document.getElementById(\"contactNotice\");\r\n\r\n    if (contactForm && contactNotice) {\r\n        contactForm.addEventListener(\"submit\", (e) => {\r\n            e.preventDefault();\r\n            contactNotice.className = \"form-notice success\";\r\n            contactNotice.textContent = \"¡Consulta enviada! Nos pondremos en contacto contigo a la brevedad.\";\r\n            \r\n            contactForm.reset();\r\n            \r\n            setTimeout(() => {\r\n                contactNotice.textContent = \"\";\r\n            }, 4000);\r\n        });\r\n    }\r\n\r\n    const animScrollElements = document.querySelectorAll(\".scroll-animate\");\r\n    \r\n    if (\"IntersectionObserver\" in window) {\r\n        const observer = new IntersectionObserver((entries, observer) => {\r\n            entries.forEach(entry => {\r\n                if (entry.isIntersecting) {\r\n                    entry.target.classList.add(\"animated\");\r\n                    observer.unobserve(entry.target);\r\n                }\r\n            });\r\n        }, {\r\n            threshold: 0.15,\r\n            rootMargin: \"0px 0px -50px 0px\"\r\n        });\r\n\r\n        animScrollElements.forEach(el => observer.observe(el));\r\n    } else {\r\n        animScrollElements.forEach(el => el.classList.add(\"animated\"));\r\n    }\r\n\r\n    const faqItems = document.querySelectorAll(\".faq-item\");\r\n    faqItems.forEach(item => {\r\n        const questionBtn = item.querySelector(\".faq-question\");\r\n        if (questionBtn) {\r\n            questionBtn.addEventListener(\"click\", () => {\r\n                const isActive = item.classList.contains(\"active\");\r\n                \r\n                faqItems.forEach(i => {\r\n                    i.classList.remove(\"active\");\r\n                    const btn = i.querySelector(\".faq-question\");\r\n                    if (btn) btn.setAttribute(\"aria-expanded\", \"false\");\r\n                });\r\n                \r\n                if (!isActive) {\r\n                    item.classList.add(\"active\");\r\n                    questionBtn.setAttribute(\"aria-expanded\", \"true\");\r\n                }\r\n            });\r\n        }\r\n    });\r\n\r\n    const legalTexts = {\r\n        terms: {\r\n            title: \"Términos y Condiciones\",\r\n            icon: \"gavel\",\r\n            content: `\r\n                <p><strong>Última actualización: Junio 2026</strong></p>\r\n                <p>Bienvenido a OrtoLink, una plataforma de tecnología de la salud provista por Nexocore S.A. Al utilizar nuestra aplicación o sitio web, usted acepta cumplir con estos Términos y Condiciones de Uso.</p>\r\n                <p><strong>1. Uso de la plataforma:</strong> OrtoLink proporciona una herramienta digital para apoyar el seguimiento de la rehabilitación física post-protésica y la autogestión de dolores, incluyendo la bitácora del dolor fantasma. La plataforma no sustituye en ningún caso las consultas médicas directas o diagnósticos clínicos presenciales.</p>\r\n                <p><strong>2. Registro de cuenta:</strong> El usuario debe proporcionar información real y mantener la confidencialidad de su contraseña. El uso clínico de la cuenta del especialista requiere de la verificación oficial de su colegiatura médica por parte de Nexocore.</p>\r\n                <p><strong>3. Responsabilidades del paciente:</strong> El paciente es responsable del uso seguro de su prótesis física y del seguimiento de los ejercicios guiados según las capacidades físicas indicadas por su terapeuta.</p>\r\n            `\r\n        },\r\n        privacy: {\r\n            title: \"Políticas de Privacidad\",\r\n            icon: \"shield\",\r\n            content: `\r\n                <p><strong>Última actualización: Junio 2026</strong></p>\r\n                <p>En Nexocore S.A., la privacidad de nuestros usuarios es de máxima prioridad. Esta política detalla cómo recopilamos, protegemos y compartimos su información.</p>\r\n                <p><strong>1. Recopilación de Información:</strong> Recopilamos datos de registro (nombre, correo electrónico, contraseña) y datos de salud (tipo de amputación, nivel de dolor, frecuencia y adherencia a ejercicios físicos).</p>\r\n                <p><strong>2. Almacenamiento seguro:</strong> Todos los datos de salud se encriptan de extremo a extremo y se alojan en servidores seguros conformes con los estándares internacionales de seguridad clínica.</p>\r\n                <p><strong>3. Control del usuario:</strong> Usted es dueño de sus datos de salud. Puede revocarlos o eliminarlos en cualquier momento desde los ajustes de su cuenta en la aplicación móvil.</p>\r\n            `\r\n        },\r\n        data: {\r\n            title: \"Uso de Datos Clínicos\",\r\n            icon: \"database\",\r\n            content: `\r\n                <p><strong>Última actualización: Junio 2026</strong></p>\r\n                <p>El tratamiento y análisis de los datos clínicos en la plataforma OrtoLink cumple estrictamente con las regulaciones de protección de datos personales de salud.</p>\r\n                <p><strong>1. Compartición clínica consentida:</strong> Al registrar un especialista de confianza, usted autoriza a OrtoLink a enviar reportes consolidados sobre su diario de dolor e historial de ejercicios. Puede desactivar esta compartición cuando lo desee.</p>\r\n                <p><strong>2. Uso con fines de investigación:</strong> Nexocore podrá utilizar datos de salud anonimizados (sin nombres ni correos vinculados) con el exclusivo fin de realizar estudios científicos y mejorar las rutinas de rehabilitación para toda la comunidad amputada.</p>\r\n            `\r\n        },\r\n        support: {\r\n            title: \"Soporte Técnico y Asistencia\",\r\n            icon: \"contact_support\",\r\n            content: `\r\n                <p><strong>Servicio de Soporte y Asistencia Clínica</strong></p>\r\n                <p>Nexocore S.A. ofrece un servicio técnico continuo para la plataforma digital OrtoLink.</p>\r\n                <p><strong>1. Canales de atención:</strong> Puede reportar fallos de software o problemas de acceso a través del correo <strong>soporte@nexocore.com.pe</strong> o por vía telefónica al +51 1 619-7000 en el horario de Lunes a Sábado de 8:00 AM a 6:00 PM.</p>\r\n                <p><strong>2. Tiempos de respuesta:</strong> Las solicitudes urgentes relacionadas con la inactividad de las cuentas de especialistas se resuelven en un plazo máximo de 24 horas útiles.</p>\r\n                <p><strong>3. Exclusión:</strong> Nuestro equipo de soporte técnico no proporciona asesoría médica directa sobre prótesis físicas o dosificación de analgésicos.</p>\r\n            `\r\n        }\r\n    };\r\n\r\n    const legalModal = document.getElementById(\"legalModal\");\r\n    const legalTitle = document.getElementById(\"legalTitle\");\r\n    const legalIcon = document.getElementById(\"legalIcon\");\r\n    const legalContent = document.getElementById(\"legalContent\");\r\n    const btnCloseLegal = document.getElementById(\"btnCloseLegal\");\r\n    const btnAcceptLegal = document.getElementById(\"btnAcceptLegal\");\r\n    const legalLinks = document.querySelectorAll(\".legal-link\");\r\n\r\n    const openLegal = (type) => {\r\n        const data = legalTexts[type];\r\n        if (data) {\r\n            legalTitle.textContent = data.title;\r\n            legalIcon.textContent = data.icon;\r\n            legalContent.innerHTML = data.content;\r\n            legalModal.classList.remove(\"hidden\");\r\n            document.body.style.overflow = \"hidden\";\r\n        }\r\n    };\r\n\r\n    const closeLegal = () => {\r\n        legalModal.classList.add(\"hidden\");\r\n        document.body.style.overflow = \"\";\r\n    };\r\n\r\n    legalLinks.forEach(link => {\r\n        link.addEventListener(\"click\", (e) => {\r\n            e.preventDefault();\r\n            const type = link.getAttribute(\"data-legal\");\r\n            openLegal(type);\r\n        });\r\n    });\r\n\r\n    if (btnCloseLegal) btnCloseLegal.addEventListener(\"click\", closeLegal);\r\n    if (btnAcceptLegal) btnAcceptLegal.addEventListener(\"click\", closeLegal);\r\n\r\n    if (legalModal) {\r\n        legalModal.addEventListener(\"click\", (e) => {\r\n            if (e.target === legalModal) {\r\n                closeLegal();\r\n            }\r\n        });\r\n    }\r\n\r\n    const painSlider = document.getElementById(\"painSlider\");\r\n    const painValueDisplay = document.getElementById(\"painValueDisplay\");\r\n    const painScaleCard = document.getElementById(\"painScaleCard\");\r\n    const painFeedbackIcon = document.getElementById(\"painFeedbackIcon\");\r\n    const painFeedbackTitle = document.getElementById(\"painFeedbackTitle\");\r\n    const painFeedbackDesc = document.getElementById(\"painFeedbackDesc\");\r\n    const faces = document.querySelectorAll(\".pain-faces .face\");\r\n\r\n    const painData = {\r\n        1: {\r\n            theme: \"pain-green\",\r\n            title: \"Nivel 1 - Dolor Leve / Confortable\",\r\n            icon: \"check_circle\",\r\n            desc: \"Tu estado es óptimo. Te sugerimos realizar tu rutina diaria de movilidad ligera (10 min) para mantener la circulación activa en tu miembro residual.\"\r\n        },\r\n        2: {\r\n            theme: \"pain-green\",\r\n            title: \"Nivel 2 - Dolor Muy Leve\",\r\n            icon: \"check_circle\",\r\n            desc: \"Tu estado es adecuado. Realizar masajes de desensibilización ligeros te ayudará a mantener la comodidad en el socket.\"\r\n        },\r\n        3: {\r\n            theme: \"pain-teal\",\r\n            title: \"Nivel 3 - Dolor Moderado Leve\",\r\n            icon: \"info\",\r\n            desc: \"Sugerencia de OrtoLink: Realiza ejercicios de compresión ligera mediante un vendaje elástico y dedica 5 minutos a respiraciones profundas diafragmáticas.\"\r\n        },\r\n        4: {\r\n            theme: \"pain-teal\",\r\n            title: \"Nivel 4 - Dolor Moderado / Molesto\",\r\n            icon: \"info\",\r\n            desc: \"Sugerencia: Haz una pausa y realiza 10 minutos de terapia de espejo. Si utilizas prótesis, verifica que el socket esté correctamente alineado.\"\r\n        },\r\n        5: {\r\n            theme: \"pain-orange\",\r\n            title: \"Nivel 5 - Dolor Severo Moderado\",\r\n            icon: \"warning\",\r\n            desc: \"Alerta de bitácora registrada. Recomendamos retirar la prótesis temporalmente, realizar ligeras palmaditas en la zona residual y reportar este dolor en tu diario.\"\r\n        },\r\n        6: {\r\n            theme: \"pain-orange\",\r\n            title: \"Nivel 6 - Dolor Severo\",\r\n            icon: \"warning\",\r\n            desc: \"Se recomienda iniciar terapia de calor o compresión fría en el miembro residual por 15 minutos. El reporte ha sido consolidado en tu informe semanal.\"\r\n        },\r\n        7: {\r\n            theme: \"pain-red\",\r\n            title: \"Nivel 7 - Dolor Muy Severo\",\r\n            icon: \"report\",\r\n            desc: \"Crisis de dolor fantasma registrada. Se recomienda reposar en una posición cómoda, aplicar masajes profundos de compresión y notificar a tu especialista si persiste.\"\r\n        },\r\n        8: {\r\n            theme: \"pain-red\",\r\n            title: \"Nivel 8 - Dolor Crítico\",\r\n            icon: \"report\",\r\n            desc: \"Dolor muy severo. Recomendamos suspender el uso de la prótesis hoy y realizar técnicas cognitivas de relajación progresiva. Alerta enviada a tu bitácora.\"\r\n        },\r\n        9: {\r\n            theme: \"pain-critical\",\r\n            title: \"Nivel 9 - Dolor Extremo\",\r\n            icon: \"error\",\r\n            desc: \"Crisis aguda. Considera el uso de la medicación prescrita por tu médico fisiatra y ponte en contacto con tu protesista para evaluar posibles presiones anómalas en el muñón.\"\r\n        },\r\n        10: {\r\n            theme: \"pain-critical\",\r\n            title: \"Nivel 10 - Dolor Insoportable\",\r\n            icon: \"error\",\r\n            desc: \"¡Alerta crítica de dolor fantasma! Se simula el envío inmediato de una notificación de emergencia a tu especialista. Te aconsejamos contactar asistencia médica directa.\"\r\n        }\r\n    };\r\n\r\n    const updatePainScale = (level) => {\r\n        const data = painData[level];\r\n        if (!data) return;\r\n\r\n        if (painValueDisplay) painValueDisplay.textContent = level;\r\n        if (painFeedbackTitle) painFeedbackTitle.textContent = data.title;\r\n        if (painFeedbackDesc) painFeedbackDesc.textContent = data.desc;\r\n        if (painFeedbackIcon) painFeedbackIcon.textContent = data.icon;\r\n\r\n        if (painScaleCard) {\r\n            painScaleCard.className = \"pain-scale-container \" + data.theme;\r\n        }\r\n\r\n        if (painSlider && painSlider.value != level) {\r\n            painSlider.value = level;\r\n        }\r\n\r\n        if (faces.length > 0) {\r\n            faces.forEach(face => {\r\n                const faceLevel = parseInt(face.getAttribute(\"data-level\"));\r\n                let isMatch = false;\r\n                if (level <= 2 && faceLevel === 1) isMatch = true;\r\n                else if ((level === 3 || level === 4) && faceLevel === 3) isMatch = true;\r\n                else if ((level === 5 || level === 6) && faceLevel === 5) isMatch = true;\r\n                else if ((level === 7 || level === 8) && faceLevel === 7) isMatch = true;\r\n                else if (level >= 9 && faceLevel === 10) isMatch = true;\r\n\r\n                if (isMatch) {\r\n                    face.classList.add(\"active\");\r\n                } else {\r\n                    face.classList.remove(\"active\");\r\n                }\r\n            });\r\n        }\r\n    };\r\n\r\n    if (painSlider) {\r\n        painSlider.addEventListener(\"input\", (e) => {\r\n            const val = parseInt(e.target.value);\r\n            updatePainScale(val);\r\n        });\r\n    }\r\n\r\n    if (faces.length > 0) {\r\n        faces.forEach(face => {\r\n            face.addEventListener(\"click\", () => {\r\n                const val = parseInt(face.getAttribute(\"data-level\"));\r\n                updatePainScale(val);\r\n            });\r\n        });\r\n    }\r\n});\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/script.js b/js/script.js
+--- a/js/script.js	(revision 3859069ab3acc12da58d127dfac2711cdb49ea12)
++++ b/js/script.js	(date 1783558346069)
+@@ -7,7 +7,7 @@
+     if (menuToggle && navMenu) {
+         menuToggle.addEventListener("click", () => {
+             navMenu.classList.toggle("active");
+-            
++
+             const icon = menuToggle.querySelector("span");
+             if (navMenu.classList.contains("active")) {
+                 icon.textContent = "close";
+@@ -35,10 +35,10 @@
+     });
+ 
+     const sections = document.querySelectorAll("section");
+-    
++
+     window.addEventListener("scroll", () => {
+         let currentSection = "";
+-        
++
+         sections.forEach(section => {
+             const sectionTop = section.offsetTop - 100;
+             const sectionHeight = section.clientHeight;
+@@ -81,36 +81,36 @@
+     const btnSpecialist = document.getElementById("btnRoleSpecialist");
+     const formTitle = document.getElementById("formTitle");
+     const btnSubmit = document.getElementById("btnSubmitForm");
+-    
++
+     const groupAmputation = document.getElementById("groupAmputation");
+     const groupSpecialty = document.getElementById("groupSpecialty");
+     const groupLicense = document.getElementById("groupLicense");
+-    
++
+     const selectAmputation = document.getElementById("regAmputation");
+     const selectSpecialty = document.getElementById("regSpecialty");
+     const inputLicense = document.getElementById("regLicense");
+-    
++
+     let activeRole = "paciente";
+ 
+     if (btnPatient && btnSpecialist) {
+         btnPatient.addEventListener("click", () => {
+             if (activeRole === "paciente") return;
+             activeRole = "paciente";
+-            
++
+             btnPatient.classList.add("active");
+             btnSpecialist.classList.remove("active");
+-            
++
+             formTitle.textContent = "Crear mi cuenta de Paciente";
+             btnSubmit.textContent = "Crear mi cuenta";
+-            
++
+             groupAmputation.classList.remove("hidden");
+             groupAmputation.classList.remove("fade-in-slide");
+             void groupAmputation.offsetWidth;
+             groupAmputation.classList.add("fade-in-slide");
+-            
++
+             groupSpecialty.classList.add("hidden");
+             groupLicense.classList.add("hidden");
+-            
++
+             selectAmputation.required = true;
+             selectSpecialty.required = false;
+             inputLicense.required = false;
+@@ -119,25 +119,25 @@
+         btnSpecialist.addEventListener("click", () => {
+             if (activeRole === "especialista") return;
+             activeRole = "especialista";
+-            
++
+             btnSpecialist.classList.add("active");
+             btnPatient.classList.remove("active");
+-            
++
+             formTitle.textContent = "Registrarme como Especialista";
+             btnSubmit.textContent = "Registrarse como especialista";
+-            
++
+             groupAmputation.classList.add("hidden");
+-            
++
+             groupSpecialty.classList.remove("hidden");
+             groupSpecialty.classList.remove("fade-in-slide");
+             void groupSpecialty.offsetWidth;
+             groupSpecialty.classList.add("fade-in-slide");
+-            
++
+             groupLicense.classList.remove("hidden");
+             groupLicense.classList.remove("fade-in-slide");
+             void groupLicense.offsetWidth;
+             groupLicense.classList.add("fade-in-slide");
+-            
++
+             selectAmputation.required = false;
+             selectSpecialty.required = true;
+             inputLicense.required = true;
+@@ -150,17 +150,17 @@
+     if (regForm && formNotice) {
+         regForm.addEventListener("submit", (e) => {
+             e.preventDefault();
+-            
++
+             formNotice.className = "form-notice success";
+-            
++
+             if (activeRole === "paciente") {
+                 formNotice.textContent = "Cuenta creada exitosamente. Redirigiendo al onboarding...";
+             } else {
+                 formNotice.textContent = "Cuenta de especialista creada. Pendiente de verificación por nuestro equipo médico.";
+             }
+-            
++
+             regForm.reset();
+-            
++
+             setTimeout(() => {
+                 formNotice.textContent = "";
+             }, 5000);
+@@ -175,9 +175,9 @@
+             e.preventDefault();
+             contactNotice.className = "form-notice success";
+             contactNotice.textContent = "¡Consulta enviada! Nos pondremos en contacto contigo a la brevedad.";
+-            
++
+             contactForm.reset();
+-            
++
+             setTimeout(() => {
+                 contactNotice.textContent = "";
+             }, 4000);
+@@ -185,7 +185,7 @@
+     }
+ 
+     const animScrollElements = document.querySelectorAll(".scroll-animate");
+-    
++
+     if ("IntersectionObserver" in window) {
+         const observer = new IntersectionObserver((entries, observer) => {
+             entries.forEach(entry => {
+@@ -210,13 +210,13 @@
+         if (questionBtn) {
+             questionBtn.addEventListener("click", () => {
+                 const isActive = item.classList.contains("active");
+-                
++
+                 faqItems.forEach(i => {
+                     i.classList.remove("active");
+                     const btn = i.querySelector(".faq-question");
+                     if (btn) btn.setAttribute("aria-expanded", "false");
+                 });
+-                
++
+                 if (!isActive) {
+                     item.classList.add("active");
+                     questionBtn.setAttribute("aria-expanded", "true");
+@@ -436,4 +436,17 @@
+             });
+         });
+     }
++
++    // Control del video de la carátula al pasar el cursor
++    const heroVideo = document.getElementById("heroVideo");
++    if (heroVideo) {
++        heroVideo.addEventListener("mouseenter", () => {
++            heroVideo.play().catch(error => {
++                console.log("Autoplay preventivo o error al reproducir video:", error);
++            });
++        });
++        heroVideo.addEventListener("mouseleave", () => {
++            heroVideo.pause();
++        });
++    }
+ });
+Index: js/login.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>document.addEventListener(\"DOMContentLoaded\", () => {\r\n    const btnLoginPatient = document.getElementById(\"btnLoginRolePatient\");\r\n    const btnLoginSpecialist = document.getElementById(\"btnLoginRoleSpecialist\");\r\n    const loginForm = document.getElementById(\"loginForm\");\r\n    const loginNotice = document.getElementById(\"loginNotice\");\r\n    \r\n    let activeLoginRole = \"paciente\";\r\n\r\n    if (btnLoginPatient && btnLoginSpecialist) {\r\n        btnLoginPatient.addEventListener(\"click\", () => {\r\n            if (activeLoginRole === \"paciente\") return;\r\n            activeLoginRole = \"paciente\";\r\n            btnLoginPatient.classList.add(\"active\");\r\n            btnLoginSpecialist.classList.remove(\"active\");\r\n        });\r\n\r\n        btnLoginSpecialist.addEventListener(\"click\", () => {\r\n            if (activeLoginRole === \"especialista\") return;\r\n            activeLoginRole = \"especialista\";\r\n            btnLoginSpecialist.classList.add(\"active\");\r\n            btnLoginPatient.classList.remove(\"active\");\r\n        });\r\n    }\r\n\r\n    if (loginForm && loginNotice) {\r\n        loginForm.addEventListener(\"submit\", (e) => {\r\n            e.preventDefault();\r\n            \r\n            loginNotice.className = \"form-notice success\";\r\n            \r\n            if (activeLoginRole === \"paciente\") {\r\n                loginNotice.textContent = \"¡Sesión iniciada con éxito! Redirigiendo a tu Portal del Paciente...\";\r\n            } else {\r\n                loginNotice.textContent = \"¡Sesión iniciada con éxito! Redirigiendo al Portal Clínico...\";\r\n            }\r\n\r\n            const submitBtn = loginForm.querySelector('button[type=\"submit\"]');\r\n            if (submitBtn) submitBtn.disabled = true;\r\n\r\n            setTimeout(() => {\r\n                window.location.href = \"index.html\";\r\n            }, 2000);\r\n        });\r\n    }\r\n});\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/login.js b/js/login.js
+--- a/js/login.js	(revision 3859069ab3acc12da58d127dfac2711cdb49ea12)
++++ b/js/login.js	(date 1783558347027)
+@@ -3,7 +3,7 @@
+     const btnLoginSpecialist = document.getElementById("btnLoginRoleSpecialist");
+     const loginForm = document.getElementById("loginForm");
+     const loginNotice = document.getElementById("loginNotice");
+-    
++
+     let activeLoginRole = "paciente";
+ 
+     if (btnLoginPatient && btnLoginSpecialist) {
+@@ -25,9 +25,9 @@
+     if (loginForm && loginNotice) {
+         loginForm.addEventListener("submit", (e) => {
+             e.preventDefault();
+-            
++
+             loginNotice.className = "form-notice success";
+-            
++
+             if (activeLoginRole === "paciente") {
+                 loginNotice.textContent = "¡Sesión iniciada con éxito! Redirigiendo a tu Portal del Paciente...";
+             } else {
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>:root {\r\n    \r\n    --color-primary: #0056D2;        \r\n    --color-secondary: #00A896;      \r\n    --color-accent: #FF8C00;         \r\n    --color-info: #4DA8DA;           \r\n    \r\n    --color-white: #FFFFFF;\r\n    --color-bg-light: #F8F9FA;\r\n    --color-text-muted: #6C757D;\r\n    --color-text-dark: #212529;\r\n    \r\n    --color-hover-dark: #12408c;\r\n    --color-hover-teal: #008f7f;\r\n    --color-disabled: #E9ECEF;\r\n    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);\r\n    --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.05);\r\n    --shadow-lg: 0 15px 30px rgba(0, 86, 210, 0.1);\r\n    \r\n    --font-main: 'Inter', sans-serif;\r\n    --radius-btn: 8px;\r\n    --radius-card: 12px;\r\n    --radius-modal: 16px;\r\n    \r\n    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);\r\n}\r\n\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    scroll-behavior: smooth;\r\n    font-size: 16px;\r\n}\r\n\r\nbody {\r\n    font-family: var(--font-main);\r\n    color: var(--color-text-dark);\r\n    background-color: var(--color-white);\r\n    line-height: 1.6;\r\n    overflow-x: hidden;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: inherit;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\nul {\r\n    list-style: none;\r\n}\r\n\r\nimg {\r\n    max-width: 100%;\r\n    height: auto;\r\n    display: block;\r\n}\r\n\r\n.container {\r\n    width: 100%;\r\n    max-width: 1200px;\r\n    margin: 0 auto;\r\n    padding: 0 24px;\r\n}\r\n\r\n.grid-2 {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    gap: 40px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .grid-2 {\r\n        grid-template-columns: 1fr 1fr;\r\n        gap: 64px;\r\n    }\r\n}\r\n\r\n.align-center {\r\n    align-items: center;\r\n}\r\n\r\n.text-center {\r\n    text-center: center;\r\n    text-align: center;\r\n}\r\n\r\nh1 {\r\n    font-size: 2.25rem; \r\n    font-weight: 700;\r\n    line-height: 1.2;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\nh2 {\r\n    font-size: 1.75rem; \r\n    font-weight: 600;\r\n    line-height: 1.3;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\nh3 {\r\n    font-size: 1.25rem; \r\n    font-weight: 500;\r\n    line-height: 1.4;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\nh4 {\r\n    font-size: 1.125rem; \r\n    font-weight: 500;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\np {\r\n    font-size: 1rem; \r\n    font-weight: 400;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\n.text-white {\r\n    color: var(--color-white) !important;\r\n}\r\n\r\n.text-white-muted {\r\n    color: rgba(255, 255, 255, 0.8) !important;\r\n}\r\n\r\n.text-teal {\r\n    color: var(--color-secondary) !important;\r\n}\r\n\r\n.text-blue {\r\n    color: var(--color-primary) !important;\r\n}\r\n\r\n.btn {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-weight: 600;\r\n    font-size: 0.938rem;\r\n    padding: 12px 28px;\r\n    border-radius: var(--radius-btn);\r\n    border: 2px solid transparent;\r\n    cursor: pointer;\r\n    transition: var(--transition-smooth);\r\n    text-align: center;\r\n}\r\n\r\n.btn-sm {\r\n    padding: 8px 18px;\r\n    font-size: 0.875rem;\r\n}\r\n\r\n.btn-block {\r\n    display: flex;\r\n    width: 100%;\r\n}\r\n\r\n.btn-primary {\r\n    background-color: var(--color-primary);\r\n    color: var(--color-white);\r\n}\r\n\r\n.btn-primary:hover {\r\n    background-color: var(--color-hover-dark);\r\n    transform: translateY(-2px);\r\n    box-shadow: 0 4px 10px rgba(0, 86, 210, 0.2);\r\n}\r\n\r\n.btn-secondary {\r\n    background-color: var(--color-secondary);\r\n    color: var(--color-white);\r\n}\r\n\r\n.btn-secondary:hover {\r\n    background-color: var(--color-hover-teal);\r\n    transform: translateY(-2px);\r\n    box-shadow: 0 4px 10px rgba(0, 168, 150, 0.2);\r\n}\r\n\r\n.btn-secondary-outline {\r\n    background-color: transparent;\r\n    border-color: var(--color-secondary);\r\n    color: var(--color-secondary);\r\n}\r\n\r\n.btn-secondary-outline:hover {\r\n    background-color: var(--color-secondary);\r\n    color: var(--color-white);\r\n    transform: translateY(-2px);\r\n}\r\n\r\n.btn-role {\r\n    flex: 1;\r\n    padding: 12px;\r\n    background-color: var(--color-bg-light);\r\n    border: none;\r\n    font-weight: 600;\r\n    cursor: pointer;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.btn-role.active {\r\n    background-color: var(--color-white);\r\n    color: var(--color-primary);\r\n    box-shadow: var(--shadow-sm);\r\n}\r\n\r\n.badge {\r\n    display: inline-block;\r\n    padding: 6px 14px;\r\n    background-color: rgba(0, 86, 210, 0.1);\r\n    color: var(--color-primary);\r\n    font-size: 0.813rem;\r\n    font-weight: 600;\r\n    border-radius: 50px;\r\n    margin-bottom: 16px;\r\n}\r\n\r\n.section-tag {\r\n    display: inline-block;\r\n    font-size: 0.813rem;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1.5px;\r\n    color: var(--color-secondary);\r\n    margin-bottom: 12px;\r\n}\r\n\r\n.section-desc {\r\n    font-size: 1.125rem;\r\n    color: var(--color-text-muted);\r\n    max-width: 700px;\r\n    margin: 16px auto 0;\r\n}\r\n\r\n.main-header {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    z-index: 1000;\r\n    background-color: rgba(255, 255, 255, 0.95);\r\n    backdrop-filter: blur(10px);\r\n    box-shadow: var(--shadow-sm);\r\n    transition: var(--transition-smooth);\r\n    padding: 16px 0;\r\n}\r\n\r\n.main-header.scrolled {\r\n    padding: 10px 0;\r\n    background-color: var(--color-white);\r\n}\r\n\r\n.header-container {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    width: 100%;\r\n    max-width: 1200px;\r\n    margin: 0 auto;\r\n    padding: 0 24px;\r\n}\r\n\r\n.logo-area {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 12px;\r\n}\r\n\r\n.logo-img {\r\n    height: 38px;\r\n    width: auto;\r\n}\r\n\r\n.logo-text {\r\n    font-weight: 700;\r\n    font-size: 1.25rem;\r\n    letter-spacing: -0.5px;\r\n    color: var(--color-primary);\r\n}\r\n\r\n.logo-area.text-white .logo-text {\r\n    color: var(--color-white);\r\n}\r\n\r\n.nav-menu {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 28px;\r\n}\r\n\r\n.nav-link {\r\n    font-size: 0.938rem;\r\n    font-weight: 500;\r\n    color: var(--color-text-dark);\r\n    position: relative;\r\n    padding: 6px 0;\r\n}\r\n\r\n.nav-link:hover,\r\n.nav-link.active {\r\n    color: var(--color-primary);\r\n}\r\n\r\n.nav-link::after {\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    width: 0;\r\n    height: 2px;\r\n    background-color: var(--color-primary);\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.nav-link.active::after,\r\n.nav-link:hover::after {\r\n    width: 100%;\r\n}\r\n\r\n.btn-secondary-nav,\r\n.mobile-only-link {\r\n    display: none; \r\n}\r\n\r\n.mobile-menu-toggle {\r\n    display: none;\r\n    background: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\n.mobile-menu-toggle span {\r\n    font-size: 2rem;\r\n}\r\n\r\n@media (max-width: 991px) {\r\n    .header-actions {\r\n        display: none;\r\n    }\r\n    \r\n    .mobile-menu-toggle {\r\n        display: block;\r\n    }\r\n    \r\n    .nav-menu {\r\n        position: fixed;\r\n        top: 70px;\r\n        left: -100%;\r\n        width: 100%;\r\n        height: calc(100vh - 70px);\r\n        background-color: var(--color-white);\r\n        flex-direction: column;\r\n        align-items: flex-start;\r\n        padding: 40px 24px;\r\n        gap: 24px;\r\n        transition: var(--transition-smooth);\r\n        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);\r\n        overflow-y: auto;\r\n    }\r\n    \r\n    .nav-menu.active {\r\n        left: 0;\r\n    }\r\n    \r\n    .nav-link {\r\n        font-size: 1.125rem;\r\n        width: 100%;\r\n        padding: 10px 0;\r\n        border-bottom: 1px solid var(--color-bg-light);\r\n    }\r\n    \r\n    .btn-secondary-nav {\r\n        display: block;\r\n        color: var(--color-primary);\r\n        font-weight: 600;\r\n        border: 2px solid var(--color-primary);\r\n        border-radius: var(--radius-btn);\r\n        padding: 10px 20px;\r\n        text-align: center;\r\n    }\r\n    \r\n    .mobile-only-link {\r\n        display: block;\r\n    }\r\n    \r\n    .nav-link::after {\r\n        display: none;\r\n    }\r\n}\r\n\r\n.hero-section {\r\n    padding-top: 140px;\r\n    padding-bottom: 80px;\r\n    background: radial-gradient(circle at 80% 20%, rgba(77, 168, 218, 0.08) 0%, rgba(255, 255, 255, 0) 60%);\r\n}\r\n\r\n.hero-grid {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    gap: 48px;\r\n    align-items: center;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .hero-grid {\r\n        grid-template-columns: 1.1fr 0.9fr;\r\n    }\r\n}\r\n\r\n.hero-title {\r\n    font-size: 2.5rem;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .hero-title {\r\n        font-size: 3rem;\r\n    }\r\n}\r\n\r\n.hero-subtitle {\r\n    font-size: 1.125rem;\r\n    color: var(--color-text-muted);\r\n    margin-bottom: 32px;\r\n}\r\n\r\n.hero-actions {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    gap: 16px;\r\n}\r\n\r\n.hero-image-wrapper {\r\n    position: relative;\r\n    border-radius: var(--radius-modal);\r\n    overflow: visible;\r\n}\r\n\r\n.hero-img {\r\n    border-radius: var(--radius-modal);\r\n    box-shadow: var(--shadow-lg);\r\n    width: 100%;\r\n}\r\n\r\n.experience-card {\r\n    position: absolute;\r\n    bottom: -20px;\r\n    left: 20px;\r\n    background-color: var(--color-white);\r\n    padding: 16px 20px;\r\n    border-radius: var(--radius-card);\r\n    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 16px;\r\n    animation: float 4s ease-in-out infinite;\r\n}\r\n\r\n.icon-badge {\r\n    font-size: 2.25rem;\r\n    color: var(--color-secondary);\r\n    background-color: rgba(0, 168, 150, 0.1);\r\n    padding: 10px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.experience-text {\r\n    display: flex;\r\n    flex-direction: column;\r\n}\r\n\r\n.experience-text strong {\r\n    font-size: 1.5rem;\r\n    color: var(--color-primary);\r\n    line-height: 1.1;\r\n}\r\n\r\n.experience-text span {\r\n    font-size: 0.813rem;\r\n    color: var(--color-text-muted);\r\n    font-weight: 500;\r\n}\r\n\r\n@keyframes float {\r\n    0% { transform: translateY(0px); }\r\n    50% { transform: translateY(-10px); }\r\n    100% { transform: translateY(0px); }\r\n}\r\n\r\n.about-section {\r\n    padding: 80px 0;\r\n    background-color: var(--color-bg-light);\r\n}\r\n\r\n.section-header {\r\n    margin-bottom: 56px;\r\n}\r\n\r\n.about-mv {\r\n    margin-bottom: 64px;\r\n}\r\n\r\n.mv-card {\r\n    background-color: var(--color-white);\r\n    padding: 40px;\r\n    border-radius: var(--radius-card);\r\n    box-shadow: var(--shadow-sm);\r\n    transition: var(--transition-smooth);\r\n    border-top: 4px solid transparent;\r\n}\r\n\r\n.mv-card:hover {\r\n    transform: translateY(-5px);\r\n    box-shadow: var(--shadow-md);\r\n}\r\n\r\n.mv-card.mission {\r\n    border-top-color: var(--color-secondary);\r\n}\r\n\r\n.mv-card.vision {\r\n    border-top-color: var(--color-primary);\r\n}\r\n\r\n.mv-icon-wrapper {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 60px;\r\n    height: 60px;\r\n    border-radius: 50%;\r\n    margin-bottom: 24px;\r\n}\r\n\r\n.mission .mv-icon-wrapper {\r\n    background-color: rgba(0, 168, 150, 0.1);\r\n    color: var(--color-secondary);\r\n}\r\n\r\n.vision .mv-icon-wrapper {\r\n    background-color: rgba(0, 86, 210, 0.1);\r\n    color: var(--color-primary);\r\n}\r\n\r\n.mv-icon-wrapper span {\r\n    font-size: 2rem;\r\n}\r\n\r\n.mv-card h3 {\r\n    margin-bottom: 16px;\r\n}\r\n\r\n.mv-card p {\r\n    color: var(--color-text-muted);\r\n}\r\n\r\n.team-area {\r\n    margin-top: 80px;\r\n}\r\n\r\n.team-title {\r\n    margin-bottom: 40px;\r\n    font-size: 1.5rem;\r\n}\r\n\r\n.team-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\r\n    gap: 32px;\r\n}\r\n\r\n.team-card {\r\n    background-color: var(--color-white);\r\n    padding: 32px 24px;\r\n    border-radius: var(--radius-card);\r\n    box-shadow: var(--shadow-sm);\r\n    text-align: center;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.team-card:hover {\r\n    transform: translateY(-5px);\r\n    box-shadow: var(--shadow-md);\r\n}\r\n\r\n.avatar-wrapper {\r\n    width: 110px;\r\n    height: 110px;\r\n    border-radius: 50%;\r\n    margin: 0 auto 20px;\r\n    overflow: hidden;\r\n    border: 3px solid var(--color-bg-light);\r\n}\r\n\r\n.avatar-img {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n}\r\n\r\n.team-card h4 {\r\n    margin-bottom: 6px;\r\n}\r\n\r\n.team-card .role {\r\n    font-size: 0.875rem;\r\n    font-weight: 600;\r\n    color: var(--color-primary);\r\n    margin-bottom: 4px;\r\n}\r\n\r\n.team-card .career {\r\n    font-size: 0.813rem;\r\n    color: var(--color-text-muted);\r\n}\r\n\r\n.benefits-section {\r\n    padding: 80px 0;\r\n}\r\n\r\n.benefits-column {\r\n    background-color: var(--color-white);\r\n}\r\n\r\n.column-title {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 16px;\r\n    margin-bottom: 32px;\r\n    padding-bottom: 12px;\r\n    border-bottom: 2px solid var(--color-bg-light);\r\n}\r\n\r\n.column-title span {\r\n    font-size: 2.25rem;\r\n}\r\n\r\n.cards-list {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 24px;\r\n}\r\n\r\n.benefit-card {\r\n    display: flex;\r\n    gap: 20px;\r\n    padding: 24px;\r\n    border-radius: var(--radius-card);\r\n    background-color: var(--color-bg-light);\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.benefit-card:hover {\r\n    background-color: var(--color-white);\r\n    transform: translateX(5px);\r\n    box-shadow: var(--shadow-md);\r\n}\r\n\r\n.card-icon {\r\n    display: flex;\r\n    align-items: flex-start;\r\n}\r\n\r\n.card-icon span {\r\n    font-size: 2.25rem;\r\n    color: var(--color-primary);\r\n}\r\n\r\n.benefits-column:first-child .card-icon span {\r\n    color: var(--color-secondary);\r\n}\r\n\r\n.card-info h4 {\r\n    margin-bottom: 8px;\r\n}\r\n\r\n.card-info p {\r\n    color: var(--color-text-muted);\r\n    font-size: 0.938rem;\r\n}\r\n\r\n.testimonials-section {\r\n    padding: 80px 0;\r\n    background-color: var(--color-bg-light);\r\n}\r\n\r\n.testimonial-image-wrapper {\r\n    border-radius: var(--radius-modal);\r\n    overflow: hidden;\r\n    box-shadow: var(--shadow-md);\r\n}\r\n\r\n.testimonial-img {\r\n    width: 100%;\r\n}\r\n\r\n.testimonials-content {\r\n    padding-left: 0;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .testimonials-content {\r\n        padding-left: 40px;\r\n    }\r\n}\r\n\r\n.testimonials-content h2 {\r\n    margin-bottom: 28px;\r\n}\r\n\r\n.testimonial-slider {\r\n    position: relative;\r\n    min-height: 220px;\r\n}\r\n\r\n.testimonial-item {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    transition: opacity 0.5s ease, visibility 0.5s ease;\r\n}\r\n\r\n.testimonial-item.active {\r\n    position: relative;\r\n    opacity: 1;\r\n    visibility: visible;\r\n}\r\n\r\n.rating {\r\n    display: flex;\r\n    gap: 4px;\r\n    margin-bottom: 16px;\r\n}\r\n\r\n.rating span {\r\n    color: var(--color-accent);\r\n    font-size: 1.25rem;\r\n}\r\n\r\n.quote {\r\n    font-size: 1.125rem;\r\n    font-style: italic;\r\n    color: var(--color-text-dark);\r\n    margin-bottom: 24px;\r\n    line-height: 1.5;\r\n}\r\n\r\n.author strong {\r\n    display: block;\r\n    font-size: 1rem;\r\n    color: var(--color-primary);\r\n}\r\n\r\n.author span {\r\n    font-size: 0.875rem;\r\n    color: var(--color-text-muted);\r\n}\r\n\r\n.slider-controls {\r\n    display: flex;\r\n    gap: 12px;\r\n    margin-top: 32px;\r\n}\r\n\r\n.btn-ctrl {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 44px;\r\n    height: 44px;\r\n    border-radius: 50%;\r\n    background-color: var(--color-white);\r\n    border: 1px solid var(--color-disabled);\r\n    cursor: pointer;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.btn-ctrl:hover {\r\n    background-color: var(--color-primary);\r\n    color: var(--color-white);\r\n    border-color: var(--color-primary);\r\n}\r\n\r\n.btn-ctrl span {\r\n    font-size: 1.5rem;\r\n}\r\n\r\n.registration-section {\r\n    padding: 80px 0;\r\n    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-hover-dark) 100%);\r\n}\r\n\r\n.registration-info h2 {\r\n    font-size: 2.25rem;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.reg-benefits-list {\r\n    margin-top: 32px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 16px;\r\n}\r\n\r\n.reg-benefit-item {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 16px;\r\n}\r\n\r\n.reg-benefit-item span {\r\n    font-size: 1.5rem;\r\n}\r\n\r\n.registration-form-container {\r\n    background-color: var(--color-white);\r\n    border-radius: var(--radius-modal);\r\n    overflow: hidden;\r\n    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);\r\n}\r\n\r\n.role-selector {\r\n    display: flex;\r\n    border-bottom: 1px solid var(--color-disabled);\r\n}\r\n\r\n.reg-form {\r\n    padding: 40px;\r\n}\r\n\r\n.reg-form h3 {\r\n    margin-bottom: 24px;\r\n    text-align: center;\r\n}\r\n\r\n.form-group {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.form-group.hidden {\r\n    display: none;\r\n}\r\n\r\n.form-group label {\r\n    display: block;\r\n    font-size: 0.875rem;\r\n    font-weight: 600;\r\n    margin-bottom: 8px;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\n.form-group input,\r\n.form-group select,\r\n.form-group textarea {\r\n    width: 100%;\r\n    padding: 12px 16px;\r\n    border-radius: var(--radius-btn);\r\n    border: 2px solid var(--color-disabled);\r\n    font-family: var(--font-main);\r\n    font-size: 0.938rem;\r\n    outline: none;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.form-group input:focus,\r\n.form-group select:focus,\r\n.form-group textarea:focus {\r\n    border-color: var(--color-primary);\r\n    box-shadow: 0 0 0 4px rgba(0, 86, 210, 0.15);\r\n}\r\n\r\n.form-notice {\r\n    margin-top: 16px;\r\n    font-size: 0.875rem;\r\n    text-align: center;\r\n    font-weight: 500;\r\n    min-height: 20px;\r\n}\r\n\r\n.form-notice.success {\r\n    color: var(--color-secondary);\r\n}\r\n\r\n.form-notice.error {\r\n    color: var(--color-accent);\r\n}\r\n\r\n.contact-section {\r\n    padding: 80px 0;\r\n    background-color: var(--color-white);\r\n}\r\n\r\n.contact-card {\r\n    background-color: var(--color-bg-light);\r\n    border-radius: var(--radius-modal);\r\n    padding: 48px;\r\n    box-shadow: var(--shadow-sm);\r\n}\r\n\r\n.contact-card-grid {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    gap: 40px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .contact-card-grid {\r\n        grid-template-columns: 1fr 1fr;\r\n        gap: 64px;\r\n    }\r\n}\r\n\r\n.contact-info-area h3 {\r\n    font-size: 1.75rem;\r\n    margin-bottom: 16px;\r\n}\r\n\r\n.contact-info-area p {\r\n    color: var(--color-text-muted);\r\n    margin-bottom: 32px;\r\n}\r\n\r\n.contact-methods {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.method-item {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 16px;\r\n}\r\n\r\n.method-item span:first-child {\r\n    font-size: 1.75rem;\r\n    color: var(--color-primary);\r\n    background-color: rgba(0, 86, 210, 0.08);\r\n    padding: 10px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.contact-form-area {\r\n    background-color: var(--color-white);\r\n    padding: 32px;\r\n    border-radius: var(--radius-card);\r\n    box-shadow: var(--shadow-sm);\r\n}\r\n\r\n.contact-form .form-group {\r\n    margin-bottom: 16px;\r\n}\r\n\r\n.main-footer {\r\n    background-color: var(--color-text-dark);\r\n    color: var(--color-white);\r\n    padding: 80px 0 24px;\r\n}\r\n\r\n.footer-grid {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    gap: 48px;\r\n    margin-bottom: 64px;\r\n}\r\n\r\n@media (min-width: 576px) {\r\n    .footer-grid {\r\n        grid-template-columns: 1.5fr 1fr 1fr;\r\n    }\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .footer-grid {\r\n        grid-template-columns: 1.8fr 1fr 1fr 1.2fr;\r\n    }\r\n}\r\n\r\n.footer-brand .logo-area {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.brand-desc {\r\n    color: rgba(255, 255, 255, 0.7);\r\n    margin-bottom: 24px;\r\n    font-size: 0.938rem;\r\n}\r\n\r\n.social-links {\r\n    display: flex;\r\n    gap: 16px;\r\n}\r\n\r\n.social-links a {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 40px;\r\n    height: 40px;\r\n    background-color: rgba(255, 255, 255, 0.05);\r\n    border-radius: 50%;\r\n    color: var(--color-white);\r\n}\r\n\r\n.social-links a:hover {\r\n    background-color: var(--color-secondary);\r\n    transform: translateY(-3px);\r\n}\r\n\r\n.social-links span {\r\n    font-size: 1.25rem;\r\n}\r\n\r\n.footer-links h4 {\r\n    font-size: 1rem;\r\n    margin-bottom: 24px;\r\n    position: relative;\r\n    padding-bottom: 10px;\r\n}\r\n\r\n.footer-links h4::after {\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    width: 40px;\r\n    height: 2px;\r\n    background-color: var(--color-secondary);\r\n}\r\n\r\n.footer-links ul {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 12px;\r\n}\r\n\r\n.footer-links ul a {\r\n    color: rgba(255, 255, 255, 0.7);\r\n    font-size: 0.875rem;\r\n}\r\n\r\n.footer-links ul a:hover {\r\n    color: var(--color-secondary);\r\n    padding-left: 4px;\r\n}\r\n\r\n.store-badges {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 8px;\r\n    max-width: 200px;\r\n}\r\n\r\n.badge-mockup {\r\n    display: flex;\r\n    align-items: center;\r\n    gap: 10px;\r\n    background-color: #000000;\r\n    border: 1px solid rgba(255, 255, 255, 0.15);\r\n    padding: 6px 16px;\r\n    border-radius: 6px;\r\n    cursor: pointer;\r\n    transition: var(--transition-smooth);\r\n    width: fit-content;\r\n    min-width: 175px;\r\n}\r\n\r\n.badge-mockup:hover {\r\n    background-color: #161616;\r\n    border-color: rgba(255, 255, 255, 0.3);\r\n    transform: translateY(-2px);\r\n}\r\n\r\n.badge-mockup span:first-child {\r\n    font-size: 1.35rem;\r\n    color: var(--color-white);\r\n    flex-shrink: 0;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.badge-mockup div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: flex-start;\r\n    justify-content: center;\r\n    line-height: 1.2;\r\n    white-space: nowrap;\r\n}\r\n\r\n.badge-mockup .subtext {\r\n    font-size: 9px;\r\n    font-weight: 500;\r\n    color: rgba(255, 255, 255, 0.5);\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.5px;\r\n    margin-bottom: 2px;\r\n}\r\n\r\n.badge-mockup .maintext {\r\n    font-weight: 600;\r\n    font-size: 13px;\r\n    color: var(--color-white);\r\n}\r\n\r\n.copyright-area {\r\n    border-top: 1px solid rgba(255, 255, 255, 0.08);\r\n    padding-top: 24px;\r\n    text-align: center;\r\n    font-size: 0.813rem;\r\n    color: rgba(255, 255, 255, 0.5);\r\n}\r\n\r\n.scroll-animate {\r\n    opacity: 0;\r\n    transform: translateY(30px);\r\n    transition: opacity 0.8s ease, transform 0.8s ease;\r\n}\r\n\r\n.scroll-animate.animated {\r\n    opacity: 1;\r\n    transform: translateY(0);\r\n}\r\n\r\n.fade-in {\r\n    animation: fadeInUp 1s ease forwards;\r\n}\r\n\r\n.slide-in-right {\r\n    animation: slideInRight 1s ease forwards;\r\n}\r\n\r\n@keyframes fadeInUp {\r\n    from {\r\n        opacity: 0;\r\n        transform: translateY(20px);\r\n    }\r\n    to {\r\n        opacity: 1;\r\n        transform: translateY(0);\r\n    }\r\n}\r\n\r\n@keyframes slideInRight {\r\n    from {\r\n        opacity: 0;\r\n        transform: translateX(40px);\r\n    }\r\n    to {\r\n        opacity: 1;\r\n        transform: translateX(0);\r\n    }\r\n}\r\n\r\n.login-page-body {\r\n    background: linear-gradient(135deg, rgba(0, 86, 210, 0.05) 0%, rgba(0, 168, 150, 0.05) 100%),\r\n                radial-gradient(circle at 10% 20%, rgba(0, 86, 210, 0.08) 0%, transparent 40%),\r\n                radial-gradient(circle at 90% 80%, rgba(0, 168, 150, 0.08) 0%, transparent 40%);\r\n    background-color: var(--color-white);\r\n    min-height: 100vh;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.login-page-container {\r\n    width: 100%;\r\n    max-width: 440px;\r\n    padding: 24px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.login-card {\r\n    background-color: var(--color-white);\r\n    padding: 40px;\r\n    border-radius: var(--radius-modal);\r\n    box-shadow: 0 20px 40px rgba(0, 86, 210, 0.08);\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    border: 1px solid rgba(0, 86, 210, 0.05);\r\n}\r\n\r\n.btn-login-back {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    gap: 8px;\r\n    font-size: 0.875rem;\r\n    font-weight: 600;\r\n    color: var(--color-text-muted);\r\n    transition: var(--transition-smooth);\r\n    margin-bottom: 24px;\r\n    width: fit-content;\r\n}\r\n\r\n.btn-login-back span:first-child {\r\n    font-size: 1.25rem;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.btn-login-back:hover {\r\n    color: var(--color-primary);\r\n}\r\n\r\n.btn-login-back:hover span:first-child {\r\n    transform: translateX(-4px);\r\n}\r\n\r\n.login-card-header {\r\n    text-align: center;\r\n    margin-bottom: 24px;\r\n}\r\n\r\n.login-logo {\r\n    height: 48px;\r\n    width: auto;\r\n    margin: 0 auto 12px;\r\n}\r\n\r\n.login-card-header h1 {\r\n    font-size: 1.625rem;\r\n    margin-bottom: 6px;\r\n    color: var(--color-primary);\r\n    font-weight: 700;\r\n}\r\n\r\n.login-card-header p {\r\n    font-size: 0.875rem;\r\n    color: var(--color-text-muted);\r\n}\r\n\r\n.role-selector.login-role {\r\n    margin-bottom: 20px;\r\n    border-radius: var(--radius-btn);\r\n    overflow: hidden;\r\n    display: flex;\r\n    border: 1px solid var(--color-disabled);\r\n}\r\n\r\n.btn-role-login {\r\n    flex: 1;\r\n    padding: 12px;\r\n    background-color: var(--color-bg-light);\r\n    border: none;\r\n    font-weight: 600;\r\n    cursor: pointer;\r\n    font-size: 0.875rem;\r\n    transition: var(--transition-smooth);\r\n    text-align: center;\r\n}\r\n\r\n.btn-role-login.active {\r\n    background-color: var(--color-primary);\r\n    color: var(--color-white);\r\n}\r\n\r\n.login-form .form-group {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.login-card-footer {\r\n    margin-top: 24px;\r\n    text-align: center;\r\n    font-size: 0.875rem;\r\n    color: var(--color-text-muted);\r\n}\r\n\r\n.login-card-footer a {\r\n    color: var(--color-primary);\r\n    font-weight: 600;\r\n    text-decoration: underline;\r\n}\r\n\r\n.login-card-footer a:hover {\r\n    color: var(--color-hover-dark);\r\n}\r\n\r\n.modal-overlay {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    z-index: 2000;\r\n    background-color: rgba(0, 0, 0, 0.6);\r\n    backdrop-filter: blur(8px);\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    transition: opacity 0.3s ease, visibility 0.3s ease;\r\n}\r\n\r\n.modal-overlay.hidden {\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    pointer-events: none;\r\n}\r\n\r\n.modal-card {\r\n    background-color: var(--color-white);\r\n    padding: 36px;\r\n    border-radius: var(--radius-modal);\r\n    width: 100%;\r\n    max-width: 500px;\r\n    box-shadow: var(--shadow-lg);\r\n    position: relative;\r\n    display: flex;\r\n    flex-direction: column;\r\n    border: 1px solid rgba(0, 86, 210, 0.1);\r\n}\r\n\r\n.modal-close {\r\n    position: absolute;\r\n    top: 20px;\r\n    right: 20px;\r\n    border: none;\r\n    background: none;\r\n    cursor: pointer;\r\n    color: var(--color-text-muted);\r\n    transition: var(--transition-smooth);\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 36px;\r\n    height: 36px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.modal-close:hover {\r\n    background-color: var(--color-bg-light);\r\n    color: var(--color-text-dark);\r\n}\r\n\r\n.modal-close span {\r\n    font-size: 1.5rem;\r\n}\r\n\r\n.legal-content-body {\r\n    max-height: 320px;\r\n    overflow-y: auto;\r\n    padding-right: 12px;\r\n    margin-bottom: 20px;\r\n    font-size: 0.875rem;\r\n    color: var(--color-text-muted);\r\n    line-height: 1.6;\r\n    text-align: left;\r\n}\r\n\r\n.legal-content-body p {\r\n    margin-bottom: 12px;\r\n}\r\n\r\n.legal-content-body p:last-child {\r\n    margin-bottom: 0;\r\n}\r\n\r\n.legal-content-body::-webkit-scrollbar {\r\n    width: 6px;\r\n}\r\n\r\n.legal-content-body::-webkit-scrollbar-track {\r\n    background: var(--color-bg-light);\r\n    border-radius: 4px;\r\n}\r\n\r\n.legal-content-body::-webkit-scrollbar-thumb {\r\n    background: var(--color-disabled);\r\n    border-radius: 4px;\r\n}\r\n\r\n.legal-content-body::-webkit-scrollbar-thumb:hover {\r\n    background: var(--color-text-muted);\r\n}\r\n\r\n#legalIcon {\r\n    font-size: 2.5rem;\r\n    color: var(--color-primary);\r\n    display: block;\r\n    margin: 0 auto 8px;\r\n}\r\n\r\n.faq-section {\r\n    padding: 80px 0;\r\n    background-color: var(--color-bg-light);\r\n}\r\n\r\n.faq-accordion-container {\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 16px;\r\n}\r\n\r\n.faq-item {\r\n    background-color: var(--color-white);\r\n    border-radius: var(--radius-card);\r\n    box-shadow: var(--shadow-sm);\r\n    border: 1px solid rgba(0, 86, 210, 0.03);\r\n    overflow: hidden;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.faq-item:hover {\r\n    box-shadow: var(--shadow-md);\r\n    border-color: rgba(0, 86, 210, 0.1);\r\n}\r\n\r\n.faq-question {\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    padding: 24px;\r\n    background: none;\r\n    border: none;\r\n    font-family: var(--font-main);\r\n    font-size: 1.063rem;\r\n    font-weight: 600;\r\n    color: var(--color-text-dark);\r\n    text-align: left;\r\n    cursor: pointer;\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.faq-question:hover {\r\n    color: var(--color-primary);\r\n}\r\n\r\n.faq-arrow {\r\n    font-size: 1.5rem;\r\n    color: var(--color-text-muted);\r\n    transition: transform 0.3s ease, color 0.3s ease;\r\n    flex-shrink: 0;\r\n}\r\n\r\n.faq-answer {\r\n    display: grid;\r\n    grid-template-rows: 0fr;\r\n    transition: grid-template-rows 0.3s ease-out;\r\n}\r\n\r\n.faq-answer-inner {\r\n    overflow: hidden;\r\n}\r\n\r\n.faq-answer-inner p {\r\n    padding: 0 24px 24px 24px;\r\n    color: var(--color-text-muted);\r\n    font-size: 0.938rem;\r\n    line-height: 1.6;\r\n}\r\n\r\n.faq-item.active .faq-answer {\r\n    grid-template-rows: 1fr;\r\n}\r\n\r\n.faq-item.active .faq-question {\r\n    color: var(--color-primary);\r\n}\r\n\r\n.faq-item.active .faq-arrow {\r\n    transform: rotate(180deg);\r\n    color: var(--color-primary);\r\n}\r\n\r\n.interactive-demo-card {\r\n    background-color: var(--color-white);\r\n    border-radius: var(--radius-modal);\r\n    padding: 40px;\r\n    box-shadow: var(--shadow-md);\r\n    border: 1px solid rgba(0, 86, 210, 0.08);\r\n}\r\n\r\n.demo-card-grid {\r\n    display: grid;\r\n    grid-template-columns: 1fr;\r\n    gap: 32px;\r\n    align-items: center;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .demo-card-grid {\r\n        grid-template-columns: 1fr 1fr;\r\n        gap: 48px;\r\n    }\r\n}\r\n\r\n.demo-info h3 {\r\n    font-size: 1.75rem;\r\n    margin: 12px 0;\r\n    color: var(--color-primary);\r\n}\r\n\r\n.demo-info p {\r\n    color: var(--color-text-muted);\r\n    margin-bottom: 0;\r\n}\r\n\r\n.pain-scale-container {\r\n    background-color: var(--color-bg-light);\r\n    border-radius: var(--radius-card);\r\n    padding: 32px;\r\n    border: 1px solid rgba(0, 86, 210, 0.03);\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.pain-faces {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    margin-bottom: 24px;\r\n    padding: 0 10px;\r\n}\r\n\r\n.face {\r\n    font-size: 2rem;\r\n    cursor: pointer;\r\n    transition: transform 0.2s ease, filter 0.2s ease;\r\n    filter: grayscale(80%) opacity(60%);\r\n}\r\n\r\n.face:hover {\r\n    transform: scale(1.2);\r\n    filter: grayscale(0%) opacity(100%);\r\n}\r\n\r\n.face.active {\r\n    transform: scale(1.3);\r\n    filter: grayscale(0%) opacity(100%);\r\n}\r\n\r\n.pain-slider-wrapper {\r\n    margin-bottom: 24px;\r\n}\r\n\r\n.pain-slider {\r\n    width: 100%;\r\n    -webkit-appearance: none;\r\n    appearance: none;\r\n    height: 8px;\r\n    border-radius: 4px;\r\n    background: var(--color-disabled);\r\n    outline: none;\r\n    transition: background 0.3s;\r\n}\r\n\r\n.pain-slider::-webkit-slider-thumb {\r\n    -webkit-appearance: none;\r\n    appearance: none;\r\n    width: 24px;\r\n    height: 24px;\r\n    border-radius: 50%;\r\n    background: var(--color-primary);\r\n    cursor: pointer;\r\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);\r\n    transition: transform 0.1s, background-color 0.3s;\r\n}\r\n\r\n.pain-slider::-webkit-slider-thumb:hover {\r\n    transform: scale(1.15);\r\n}\r\n\r\n.pain-slider::-moz-range-thumb {\r\n    width: 24px;\r\n    height: 24px;\r\n    border-radius: 50%;\r\n    background: var(--color-primary);\r\n    cursor: pointer;\r\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);\r\n    transition: transform 0.1s, background-color 0.3s;\r\n    border: none;\r\n}\r\n\r\n.pain-slider::-moz-range-thumb:hover {\r\n    transform: scale(1.15);\r\n}\r\n\r\n.pain-value-display {\r\n    text-align: center;\r\n    margin-top: 12px;\r\n    font-size: 0.938rem;\r\n    font-weight: 500;\r\n    color: var(--color-text-dark);\r\n}\r\n\r\n.pain-value-display strong {\r\n    font-size: 1.25rem;\r\n    color: var(--color-primary);\r\n    transition: color 0.3s;\r\n}\r\n\r\n.pain-recommendation {\r\n    display: flex;\r\n    gap: 16px;\r\n    padding: 20px;\r\n    border-radius: var(--radius-btn);\r\n    background-color: var(--color-white);\r\n    border: 1px solid var(--color-disabled);\r\n    transition: var(--transition-smooth);\r\n    min-height: 100px;\r\n}\r\n\r\n.pain-recommendation span:first-child {\r\n    font-size: 2rem;\r\n    color: var(--color-secondary);\r\n    flex-shrink: 0;\r\n    transition: color 0.3s;\r\n}\r\n\r\n.pain-recommendation strong {\r\n    display: block;\r\n    font-size: 0.938rem;\r\n    color: var(--pain-color, var(--color-primary));\r\n    margin-bottom: 4px;\r\n    transition: color 0.3s;\r\n}\r\n\r\n.pain-recommendation p {\r\n    font-size: 0.875rem;\r\n    color: var(--color-text-muted);\r\n    line-height: 1.5;\r\n}\r\n\r\n.pain-scale-container {\r\n    --pain-color: var(--color-primary);\r\n    background-color: var(--color-bg-light);\r\n    border-radius: var(--radius-card);\r\n    padding: 32px;\r\n    border: 1px solid rgba(0, 86, 210, 0.03);\r\n    transition: var(--transition-smooth);\r\n}\r\n\r\n.pain-scale-container.pain-green {\r\n    --pain-color: #00A896; \r\n    background-color: rgba(0, 168, 150, 0.03);\r\n    border-color: rgba(0, 168, 150, 0.15);\r\n}\r\n\r\n.pain-scale-container.pain-teal {\r\n    --pain-color: #008f7f;\r\n    background-color: rgba(0, 143, 127, 0.03);\r\n    border-color: rgba(0, 143, 127, 0.15);\r\n}\r\n\r\n.pain-scale-container.pain-orange {\r\n    --pain-color: #FF8C00; \r\n    background-color: rgba(255, 140, 0, 0.03);\r\n    border-color: rgba(255, 140, 0, 0.15);\r\n}\r\n\r\n.pain-scale-container.pain-red {\r\n    --pain-color: #e63946; \r\n    background-color: rgba(230, 57, 70, 0.03);\r\n    border-color: rgba(230, 57, 70, 0.15);\r\n}\r\n\r\n.pain-scale-container.pain-critical {\r\n    --pain-color: #9b2226; \r\n    background-color: rgba(155, 34, 38, 0.04);\r\n    border-color: rgba(155, 34, 38, 0.2);\r\n}\r\n\r\n.pain-slider::-webkit-slider-thumb {\r\n    background: var(--pain-color, var(--color-primary)) !important;\r\n}\r\n\r\n.pain-slider::-moz-range-thumb {\r\n    background: var(--pain-color, var(--color-primary)) !important;\r\n}\r\n\r\n.pain-value-display strong {\r\n    color: var(--pain-color, var(--color-primary)) !important;\r\n}\r\n\r\n.pain-recommendation span:first-child {\r\n    color: var(--pain-color, var(--color-secondary)) !important;\r\n}\r\n\r\n.fade-in-slide {\r\n    animation: fadeInSlide 0.4s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;\r\n}\r\n\r\n@keyframes fadeInSlide {\r\n    from {\r\n        opacity: 0;\r\n        transform: translateY(10px);\r\n    }\r\n    to {\r\n        opacity: 1;\r\n        transform: translateY(0);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/style.css b/css/style.css
+--- a/css/style.css	(revision 3859069ab3acc12da58d127dfac2711cdb49ea12)
++++ b/css/style.css	(date 1783565314208)
+@@ -1,27 +1,27 @@
+ :root {
+-    
+-    --color-primary: #0056D2;        
+-    --color-secondary: #00A896;      
+-    --color-accent: #FF8C00;         
+-    --color-info: #4DA8DA;           
+-    
++
++    --color-primary: #0056D2;
++    --color-secondary: #00A896;
++    --color-accent: #FF8C00;
++    --color-info: #4DA8DA;
++
+     --color-white: #FFFFFF;
+     --color-bg-light: #F8F9FA;
+     --color-text-muted: #6C757D;
+     --color-text-dark: #212529;
+-    
++
+     --color-hover-dark: #12408c;
+     --color-hover-teal: #008f7f;
+     --color-disabled: #E9ECEF;
+     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+     --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.05);
+     --shadow-lg: 0 15px 30px rgba(0, 86, 210, 0.1);
+-    
++
+     --font-main: 'Inter', sans-serif;
+     --radius-btn: 8px;
+     --radius-card: 12px;
+     --radius-modal: 16px;
+-    
++
+     --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ }
+ 
+@@ -85,39 +85,38 @@
+ }
+ 
+ .text-center {
+-    text-center: center;
+     text-align: center;
+ }
+ 
+ h1 {
+-    font-size: 2.25rem; 
++    font-size: 2.25rem;
+     font-weight: 700;
+     line-height: 1.2;
+     color: var(--color-text-dark);
+ }
+ 
+ h2 {
+-    font-size: 1.75rem; 
++    font-size: 1.75rem;
+     font-weight: 600;
+     line-height: 1.3;
+     color: var(--color-text-dark);
+ }
+ 
+ h3 {
+-    font-size: 1.25rem; 
++    font-size: 1.25rem;
+     font-weight: 500;
+     line-height: 1.4;
+     color: var(--color-text-dark);
+ }
+ 
+ h4 {
+-    font-size: 1.125rem; 
++    font-size: 1.125rem;
+     font-weight: 500;
+     color: var(--color-text-dark);
+ }
+ 
+ p {
+-    font-size: 1rem; 
++    font-size: 1rem;
+     font-weight: 400;
+     color: var(--color-text-dark);
+ }
+@@ -327,7 +326,7 @@
+ 
+ .btn-secondary-nav,
+ .mobile-only-link {
+-    display: none; 
++    display: none;
+ }
+ 
+ .mobile-menu-toggle {
+@@ -346,11 +345,11 @@
+     .header-actions {
+         display: none;
+     }
+-    
++
+     .mobile-menu-toggle {
+         display: block;
+     }
+-    
++
+     .nav-menu {
+         position: fixed;
+         top: 70px;
+@@ -366,18 +365,18 @@
+         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+         overflow-y: auto;
+     }
+-    
++
+     .nav-menu.active {
+         left: 0;
+     }
+-    
++
+     .nav-link {
+         font-size: 1.125rem;
+         width: 100%;
+         padding: 10px 0;
+         border-bottom: 1px solid var(--color-bg-light);
+     }
+-    
++
+     .btn-secondary-nav {
+         display: block;
+         color: var(--color-primary);
+@@ -387,11 +386,11 @@
+         padding: 10px 20px;
+         text-align: center;
+     }
+-    
++
+     .mobile-only-link {
+         display: block;
+     }
+-    
++
+     .nav-link::after {
+         display: none;
+     }
+@@ -412,7 +411,8 @@
+ 
+ @media (min-width: 992px) {
+     .hero-grid {
+-        grid-template-columns: 1.1fr 0.9fr;
++        grid-template-columns: 0.95fr 1.05fr;
++        gap: 32px;
+     }
+ }
+ 
+@@ -445,56 +445,16 @@
+     overflow: visible;
+ }
+ 
+-.hero-img {
++.hero-img,
++.hero-video {
+     border-radius: var(--radius-modal);
+     box-shadow: var(--shadow-lg);
+     width: 100%;
+-}
+-
+-.experience-card {
+-    position: absolute;
+-    bottom: -20px;
+-    left: 20px;
+-    background-color: var(--color-white);
+-    padding: 16px 20px;
+-    border-radius: var(--radius-card);
+-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+-    display: flex;
+-    align-items: center;
+-    gap: 16px;
+-    animation: float 4s ease-in-out infinite;
+-}
+-
+-.icon-badge {
+-    font-size: 2.25rem;
+-    color: var(--color-secondary);
+-    background-color: rgba(0, 168, 150, 0.1);
+-    padding: 10px;
+-    border-radius: 50%;
+-}
+-
+-.experience-text {
+-    display: flex;
+-    flex-direction: column;
++    cursor: pointer;
++    object-fit: cover;
+ }
+ 
+-.experience-text strong {
+-    font-size: 1.5rem;
+-    color: var(--color-primary);
+-    line-height: 1.1;
+-}
+ 
+-.experience-text span {
+-    font-size: 0.813rem;
+-    color: var(--color-text-muted);
+-    font-weight: 500;
+-}
+-
+-@keyframes float {
+-    0% { transform: translateY(0px); }
+-    50% { transform: translateY(-10px); }
+-    100% { transform: translateY(0px); }
+-}
+ 
+ .about-section {
+     padding: 80px 0;
+@@ -1019,7 +979,8 @@
+     transform: translateY(-3px);
+ }
+ 
+-.social-links span {
++.social-links span,
++.social-links i {
+     font-size: 1.25rem;
+ }
+ 
+@@ -1083,7 +1044,8 @@
+     transform: translateY(-2px);
+ }
+ 
+-.badge-mockup span:first-child {
++.badge-mockup span:first-child,
++.badge-mockup i:first-child {
+     font-size: 1.35rem;
+     color: var(--color-white);
+     flex-shrink: 0;
+@@ -1147,6 +1109,7 @@
+         opacity: 0;
+         transform: translateY(20px);
+     }
++
+     to {
+         opacity: 1;
+         transform: translateY(0);
+@@ -1158,6 +1121,7 @@
+         opacity: 0;
+         transform: translateX(40px);
+     }
++
+     to {
+         opacity: 1;
+         transform: translateX(0);
+@@ -1166,8 +1130,8 @@
+ 
+ .login-page-body {
+     background: linear-gradient(135deg, rgba(0, 86, 210, 0.05) 0%, rgba(0, 168, 150, 0.05) 100%),
+-                radial-gradient(circle at 10% 20%, rgba(0, 86, 210, 0.08) 0%, transparent 40%),
+-                radial-gradient(circle at 90% 80%, rgba(0, 168, 150, 0.08) 0%, transparent 40%);
++        radial-gradient(circle at 10% 20%, rgba(0, 86, 210, 0.08) 0%, transparent 40%),
++        radial-gradient(circle at 90% 80%, rgba(0, 168, 150, 0.08) 0%, transparent 40%);
+     background-color: var(--color-white);
+     min-height: 100vh;
+     display: flex;
+@@ -1528,20 +1492,25 @@
+ }
+ 
+ .face {
+-    font-size: 2rem;
++    font-size: 2.5rem;
+     cursor: pointer;
+-    transition: transform 0.2s ease, filter 0.2s ease;
+-    filter: grayscale(80%) opacity(60%);
++    transition: transform 0.2s ease, color 0.2s ease, opacity 0.2s ease, font-variation-settings 0.2s ease;
++    color: var(--color-text-muted);
++    opacity: 0.4;
++    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+ }
+ 
+ .face:hover {
+-    transform: scale(1.2);
+-    filter: grayscale(0%) opacity(100%);
++    transform: scale(1.15);
++    opacity: 0.7;
++    color: var(--pain-color, var(--color-text));
+ }
+ 
+ .face.active {
+-    transform: scale(1.3);
+-    filter: grayscale(0%) opacity(100%);
++    transform: scale(1.25);
++    opacity: 1;
++    color: var(--pain-color);
++    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+ }
+ 
+ .pain-slider-wrapper {
+@@ -1646,7 +1615,7 @@
+ }
+ 
+ .pain-scale-container.pain-green {
+-    --pain-color: #00A896; 
++    --pain-color: #00A896;
+     background-color: rgba(0, 168, 150, 0.03);
+     border-color: rgba(0, 168, 150, 0.15);
+ }
+@@ -1658,19 +1627,19 @@
+ }
+ 
+ .pain-scale-container.pain-orange {
+-    --pain-color: #FF8C00; 
++    --pain-color: #FF8C00;
+     background-color: rgba(255, 140, 0, 0.03);
+     border-color: rgba(255, 140, 0, 0.15);
+ }
+ 
+ .pain-scale-container.pain-red {
+-    --pain-color: #e63946; 
++    --pain-color: #e63946;
+     background-color: rgba(230, 57, 70, 0.03);
+     border-color: rgba(230, 57, 70, 0.15);
+ }
+ 
+ .pain-scale-container.pain-critical {
+-    --pain-color: #9b2226; 
++    --pain-color: #9b2226;
+     background-color: rgba(155, 34, 38, 0.04);
+     border-color: rgba(155, 34, 38, 0.2);
+ }
+@@ -1700,6 +1669,7 @@
+         opacity: 0;
+         transform: translateY(10px);
+     }
++
+     to {
+         opacity: 1;
+         transform: translateY(0);

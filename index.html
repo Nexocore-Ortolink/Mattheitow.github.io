@@ -19,11 +19,12 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css?v=1.0.1">
 </head>
 
 <body>
-  
+
     <header class="main-header" id="header">
         <div class="header-container">
             <a href="#inicio" class="logo-area">
@@ -46,12 +47,13 @@
             </nav>
 
             <div class="header-actions">
-                <a href="login.html" class="btn btn-secondary-outline btn-sm" style="margin-right: 12px;">Iniciar Sesión</a>
+                <a href="login.html" class="btn btn-secondary-outline btn-sm" style="margin-right: 12px;">Iniciar
+                    Sesión</a>
                 <a href="#registro" class="btn btn-primary btn-sm">Descargar App</a>
             </div>
         </div>
     </header>
-   
+
     <section class="hero-section" id="inicio">
         <div class="container hero-grid">
             <div class="hero-content fade-in">
@@ -69,20 +71,15 @@
             </div>
             <div class="hero-media slide-in-right">
                 <div class="hero-image-wrapper">
-                    <img src="images/hero_woman_waving.png"
-                        alt="Paciente con prótesis de brazo sonriendo y saludando" class="hero-img">
-                    <div class="experience-card">
-                        <span class="material-symbols-rounded icon-badge">health_and_safety</span>
-                        <div class="experience-text">
-                            <strong>+40%</strong>
-                            <span>Adherencia clínica</span>
-                        </div>
-                    </div>
+                    <video id="heroVideo" class="hero-video" muted loop playsinline preload="auto">
+                        <source src="images/ortolink video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
                 </div>
             </div>
         </div>
     </section>
-  
+
     <section class="about-section" id="sobre-nosotros">
         <div class="container">
             <div class="section-header text-center scroll-animate">
@@ -122,16 +119,15 @@
             <div class="team-area scroll-animate">
                 <h3 class="team-title text-center">Nuestro Equipo de Desarrollo</h3>
                 <div class="team-grid">
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
-                            <img src="images/Rafael Bustamante.jpeg" alt="Rafael Bustamante"
-                                class="avatar-img">
+                            <img src="images/Rafael Bustamante.jpeg" alt="Rafael Bustamante" class="avatar-img">
                         </div>
                         <h4>Rafael Barrenechea</h4>
                         <p class="career">Ingeniería de Software</p>
                     </div>
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
                             <img src="images/Leonardo Dextre.jpeg" alt="Leonardo Dextre" class="avatar-img">
@@ -139,7 +135,7 @@
                         <h4>Leonardo Dextre</h4>
                         <p class="career">Ingeniería de Software</p>
                     </div>
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
                             <img src="images/Sebastian Caleb.jpeg" alt="Sebastian Caleb" class="avatar-img">
@@ -147,7 +143,7 @@
                         <h4>Sebastián Garrido</h4>
                         <p class="career">Ingeniería de Sistemas</p>
                     </div>
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
                             <img src="images/Diego Sebastian.jpeg" alt="Diego Sebastian" class="avatar-img">
@@ -155,7 +151,7 @@
                         <h4>Diego Romero</h4>
                         <p class="career">Ingeniería de Software</p>
                     </div>
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
                             <img src="images/Yngrid Ruiz.jpeg" alt="Yngrid Ruiz" class="avatar-img">
@@ -163,7 +159,7 @@
                         <h4>Yngrid Ruiz</h4>
                         <p class="career">Ingeniería de Software</p>
                     </div>
-                    
+
                     <div class="team-card">
                         <div class="avatar-wrapper">
                             <img src="images/Carlos Salcedo.jpeg" alt="Carlos Salcedo" class="avatar-img">
@@ -175,7 +171,7 @@
             </div>
         </div>
     </section>
-  
+
     <section class="benefits-section" id="beneficios">
         <div class="container">
             <div class="section-header text-center scroll-animate">
@@ -188,7 +184,7 @@
             </div>
 
             <div class="benefits-grid grid-2">
-                
+
                 <div class="benefits-column scroll-animate">
                     <div class="column-title">
                         <span class="material-symbols-rounded text-teal">elderly</span>
@@ -274,35 +270,46 @@
                         <span class="badge">Prueba la App</span>
                         <h3>Simulador de Bitácora de Dolor</h3>
                         <p>
-                            El dolor fantasma y la hipersensibilidad son desafíos reales tras una amputación. Experimenta cómo la bitácora inteligente de OrtoLink registra las crisis de dolor y ofrece recomendaciones clínicas personalizadas al instante.
+                            El dolor fantasma y la hipersensibilidad son desafíos reales tras una amputación.
+                            Experimenta cómo la bitácora inteligente de OrtoLink registra las crisis de dolor y ofrece
+                            recomendaciones clínicas personalizadas al instante.
                         </p>
                         <p style="margin-top: 12px; font-size: 0.875rem; color: var(--color-text-muted);">
-                            *Mueve el control deslizante o haz clic sobre los emoticonos para simular una intensidad de dolor en la escala visual analógica (EVA).
+                            *Mueve el control deslizante o haz clic sobre los rostros para simular una intensidad de
+                            dolor en la escala visual analógica (EVA).
                         </p>
                     </div>
-                    
+
                     <div class="demo-interactive">
                         <div class="pain-scale-container" id="painScaleCard">
                             <div class="pain-faces">
-                                <span class="face active" data-level="1" title="Dolor Leve">😊</span>
-                                <span class="face" data-level="3" title="Dolor Moderado">😐</span>
-                                <span class="face" data-level="5" title="Dolor Severo">😟</span>
-                                <span class="face" data-level="7" title="Dolor Muy Severo">😢</span>
-                                <span class="face" data-level="10" title="Dolor Insoportable">😫</span>
+                                <span class="face active material-symbols-rounded" data-level="1"
+                                    title="Dolor Leve">sentiment_satisfied</span>
+                                <span class="face material-symbols-rounded" data-level="3"
+                                    title="Dolor Moderado">sentiment_neutral</span>
+                                <span class="face material-symbols-rounded" data-level="5"
+                                    title="Dolor Severo">sentiment_dissatisfied</span>
+                                <span class="face material-symbols-rounded" data-level="7"
+                                    title="Dolor Muy Severo">sentiment_very_dissatisfied</span>
+                                <span class="face material-symbols-rounded" data-level="10"
+                                    title="Dolor Insoportable">mood_bad</span>
                             </div>
-                            
+
                             <div class="pain-slider-wrapper">
-                                <input type="range" id="painSlider" min="1" max="10" value="1" class="pain-slider" aria-label="Escala de dolor de 1 a 10">
+                                <input type="range" id="painSlider" min="1" max="10" value="1" class="pain-slider"
+                                    aria-label="Escala de dolor de 1 a 10">
                                 <div class="pain-value-display">
                                     Intensidad registrada: <strong id="painValueDisplay">1</strong>/10
                                 </div>
                             </div>
-                            
+
                             <div class="pain-recommendation" id="painFeedbackBox">
                                 <span class="material-symbols-rounded" id="painFeedbackIcon">check_circle</span>
                                 <div>
                                     <strong id="painFeedbackTitle">Nivel 1 - Dolor Leve / Confortable</strong>
-                                    <p id="painFeedbackDesc">Tu estado es óptimo. Te sugerimos realizar tu rutina diaria de movilidad ligera (10 min) para mantener la circulación activa en tu miembro residual.</p>
+                                    <p id="painFeedbackDesc">Tu estado es óptimo. Te sugerimos realizar tu rutina diaria
+                                        de movilidad ligera (10 min) para mantener la circulación activa en tu miembro
+                                        residual.</p>
                                 </div>
                             </div>
                         </div>
@@ -316,8 +323,8 @@
         <div class="container grid-2 align-center">
             <div class="testimonials-media scroll-animate">
                 <div class="testimonial-image-wrapper">
-                    <img src="images/testimonies_group_hug.png"
-                        alt="Grupo de pacientes con prótesis abrazándose" class="testimonial-img">
+                    <img src="images/testimonies_group_hug.png" alt="Grupo de pacientes con prótesis abrazándose"
+                        class="testimonial-img">
                 </div>
             </div>
             <div class="testimonials-content scroll-animate">
@@ -325,7 +332,7 @@
                 <h2>Historias de éxito que nos inspiran</h2>
 
                 <div class="testimonial-slider">
-                    
+
                     <div class="testimonial-item active">
                         <div class="rating">
                             <span class="material-symbols-rounded fill">star</span>
@@ -401,7 +408,7 @@
             </div>
 
             <div class="registration-form-container scroll-animate">
-                
+
                 <div class="role-selector">
                     <button class="btn-role active" id="btnRolePatient">Soy Paciente</button>
                     <button class="btn-role" id="btnRoleSpecialist">Soy Especialista</button>
@@ -460,19 +467,20 @@
             </div>
         </div>
     </section>
-    
+
     <section class="faq-section" id="faqs">
         <div class="container">
             <div class="section-header text-center scroll-animate">
                 <span class="section-tag">Preguntas Frecuentes</span>
                 <h2>Resolveremos tus dudas</h2>
                 <p class="section-desc">
-                    ¿Tienes preguntas sobre OrtoLink? Aquí respondemos las dudas más comunes de nuestros pacientes y especialistas.
+                    ¿Tienes preguntas sobre OrtoLink? Aquí respondemos las dudas más comunes de nuestros pacientes y
+                    especialistas.
                 </p>
             </div>
 
             <div class="faq-accordion-container scroll-animate">
-                
+
                 <div class="faq-item">
                     <button class="faq-question" aria-expanded="false">
                         <span>¿Cómo se conecta OrtoLink con mi prótesis?</span>
@@ -481,7 +489,10 @@
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
                             <p>
-                                OrtoLink no requiere una conexión física directa por cable ni sensores invasivos. La aplicación te permite registrar manualmente el estado y revisiones de tu prótesis y el socket. Además, el algoritmo de la plataforma genera alertas preventivas de mantenimiento basadas en tu tiempo de uso registrado y reportes de comodidad diaria.
+                                OrtoLink no requiere una conexión física directa por cable ni sensores invasivos. La
+                                aplicación te permite registrar manualmente el estado y revisiones de tu prótesis y el
+                                socket. Además, el algoritmo de la plataforma genera alertas preventivas de
+                                mantenimiento basadas en tu tiempo de uso registrado y reportes de comodidad diaria.
                             </p>
                         </div>
                     </div>
@@ -495,7 +506,11 @@
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
                             <p>
-                                La plataforma cuenta con un Diario de Dolor Fantasma digital. Los pacientes pueden registrar la intensidad (escala 1-10), frecuencia y tipo de molestia que experimentan. El sistema analiza esta información, ofrece técnicas inmediatas de alivio basadas en evidencia clínica (como ejercicios de respiración, masajes o terapia de espejo) y envía un reporte automatizado a su especialista tratante para ajustar el tratamiento físico.
+                                La plataforma cuenta con un Diario de Dolor Fantasma digital. Los pacientes pueden
+                                registrar la intensidad (escala 1-10), frecuencia y tipo de molestia que experimentan.
+                                El sistema analiza esta información, ofrece técnicas inmediatas de alivio basadas en
+                                evidencia clínica (como ejercicios de respiración, masajes o terapia de espejo) y envía
+                                un reporte automatizado a su especialista tratante para ajustar el tratamiento físico.
                             </p>
                         </div>
                     </div>
@@ -509,7 +524,11 @@
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
                             <p>
-                                Al registrarte como especialista y ser verificado por nuestro equipo médico, accedes a un panel de control clínico (Dashboard). Desde allí puedes visualizar en tiempo real gráficos sobre la adherencia a los ejercicios de tus pacientes, la curva de dolor fantasma y alertas en caso de que algún paciente reporte una disminución significativa en su movilidad o confort del socket.
+                                Al registrarte como especialista y ser verificado por nuestro equipo médico, accedes a
+                                un panel de control clínico (Dashboard). Desde allí puedes visualizar en tiempo real
+                                gráficos sobre la adherencia a los ejercicios de tus pacientes, la curva de dolor
+                                fantasma y alertas en caso de que algún paciente reporte una disminución significativa
+                                en su movilidad o confort del socket.
                             </p>
                         </div>
                     </div>
@@ -523,7 +542,11 @@
                     <div class="faq-answer">
                         <div class="faq-answer-inner">
                             <p>
-                                Absolutamente. En Nexocore nos tomamos muy en serio la privacidad clínica. Toda la información personal y los reportes de salud registrados en OrtoLink están encriptados de extremo a extremo y son almacenados bajo normativas de seguridad de nivel médico (cumpliendo con estándares internacionales de protección de datos de salud), garantizando que solo tú y tu especialista autorizado puedan verlos.
+                                Absolutamente. En Nexocore nos tomamos muy en serio la privacidad clínica. Toda la
+                                información personal y los reportes de salud registrados en OrtoLink están encriptados
+                                de extremo a extremo y son almacenados bajo normativas de seguridad de nivel médico
+                                (cumpliendo con estándares internacionales de protección de datos de salud),
+                                garantizando que solo tú y tu especialista autorizado puedan verlos.
                             </p>
                         </div>
                     </div>
@@ -577,7 +600,7 @@
             </div>
         </div>
     </section>
-   
+
     <footer class="main-footer">
         <div class="container footer-grid">
             <div class="footer-brand">
@@ -589,9 +612,9 @@
                     Rehabilitación conectada, progreso acompañado. Cerrando la brecha clínica post-protésica en el Perú.
                 </p>
                 <div class="social-links">
-                    <a href="#" aria-label="Facebook"><span class="material-symbols-rounded">public</span></a>
-                    <a href="#" aria-label="LinkedIn"><span class="material-symbols-rounded">group</span></a>
-                    <a href="#" aria-label="YouTube"><span class="material-symbols-rounded">video_library</span></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-square-whatsapp"></i></a>
                 </div>
             </div>
 
@@ -619,14 +642,14 @@
                 <h4>Descargas</h4>
                 <div class="store-badges">
                     <div class="badge-mockup store-ios">
-                        <span class="material-symbols-rounded">phone_iphone</span>
+                        <i class="fa-brands fa-apple"></i>
                         <div>
                             <span class="subtext">Descargar en</span>
                             <span class="maintext">App Store</span>
                         </div>
                     </div>
                     <div class="badge-mockup store-android">
-                        <span class="material-symbols-rounded">smart_toy</span>
+                        <i class="fa-brands fa-android"></i>
                         <div>
                             <span class="subtext">Disponible en</span>
                             <span class="maintext">Google Play</span>
@@ -651,12 +674,12 @@
                 <h3 id="legalTitle">Documento Legal</h3>
             </div>
             <div class="legal-content-body" id="legalContent">
-                
+
             </div>
             <button class="btn btn-primary" id="btnAcceptLegal" style="width: 100%;">Cerrar y Aceptar</button>
         </div>
     </div>
-   
+
     <script src="js/script.js"></script>
 </body>
 

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnLoginSpecialist = document.getElementById("btnLoginRoleSpecialist");
     const loginForm = document.getElementById("loginForm");
     const loginNotice = document.getElementById("loginNotice");
-    
+
     let activeLoginRole = "paciente";
 
     if (btnLoginPatient && btnLoginSpecialist) {
@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (loginForm && loginNotice) {
         loginForm.addEventListener("submit", (e) => {
             e.preventDefault();
-            
+
             loginNotice.className = "form-notice success";
-            
+
             if (activeLoginRole === "paciente") {
                 loginNotice.textContent = "¡Sesión iniciada con éxito! Redirigiendo a tu Portal del Paciente...";
             } else {

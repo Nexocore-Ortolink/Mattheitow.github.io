@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (menuToggle && navMenu) {
         menuToggle.addEventListener("click", () => {
             navMenu.classList.toggle("active");
-            
+
             const icon = menuToggle.querySelector("span");
             if (navMenu.classList.contains("active")) {
                 icon.textContent = "close";
@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const sections = document.querySelectorAll("section");
-    
+
     window.addEventListener("scroll", () => {
         let currentSection = "";
-        
+
         sections.forEach(section => {
             const sectionTop = section.offsetTop - 100;
             const sectionHeight = section.clientHeight;
@@ -81,36 +81,36 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnSpecialist = document.getElementById("btnRoleSpecialist");
     const formTitle = document.getElementById("formTitle");
     const btnSubmit = document.getElementById("btnSubmitForm");
-    
+
     const groupAmputation = document.getElementById("groupAmputation");
     const groupSpecialty = document.getElementById("groupSpecialty");
     const groupLicense = document.getElementById("groupLicense");
-    
+
     const selectAmputation = document.getElementById("regAmputation");
     const selectSpecialty = document.getElementById("regSpecialty");
     const inputLicense = document.getElementById("regLicense");
-    
+
     let activeRole = "paciente";
 
     if (btnPatient && btnSpecialist) {
         btnPatient.addEventListener("click", () => {
             if (activeRole === "paciente") return;
             activeRole = "paciente";
-            
+
             btnPatient.classList.add("active");
             btnSpecialist.classList.remove("active");
-            
+
             formTitle.textContent = "Crear mi cuenta de Paciente";
             btnSubmit.textContent = "Crear mi cuenta";
-            
+
             groupAmputation.classList.remove("hidden");
             groupAmputation.classList.remove("fade-in-slide");
             void groupAmputation.offsetWidth;
             groupAmputation.classList.add("fade-in-slide");
-            
+
             groupSpecialty.classList.add("hidden");
             groupLicense.classList.add("hidden");
-            
+
             selectAmputation.required = true;
             selectSpecialty.required = false;
             inputLicense.required = false;
@@ -119,25 +119,25 @@ document.addEventListener("DOMContentLoaded", () => {
         btnSpecialist.addEventListener("click", () => {
             if (activeRole === "especialista") return;
             activeRole = "especialista";
-            
+
             btnSpecialist.classList.add("active");
             btnPatient.classList.remove("active");
-            
+
             formTitle.textContent = "Registrarme como Especialista";
             btnSubmit.textContent = "Registrarse como especialista";
-            
+
             groupAmputation.classList.add("hidden");
-            
+
             groupSpecialty.classList.remove("hidden");
             groupSpecialty.classList.remove("fade-in-slide");
             void groupSpecialty.offsetWidth;
             groupSpecialty.classList.add("fade-in-slide");
-            
+
             groupLicense.classList.remove("hidden");
             groupLicense.classList.remove("fade-in-slide");
             void groupLicense.offsetWidth;
             groupLicense.classList.add("fade-in-slide");
-            
+
             selectAmputation.required = false;
             selectSpecialty.required = true;
             inputLicense.required = true;
@@ -150,17 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
     if (regForm && formNotice) {
         regForm.addEventListener("submit", (e) => {
             e.preventDefault();
-            
+
             formNotice.className = "form-notice success";
-            
+
             if (activeRole === "paciente") {
                 formNotice.textContent = "Cuenta creada exitosamente. Redirigiendo al onboarding...";
             } else {
                 formNotice.textContent = "Cuenta de especialista creada. Pendiente de verificación por nuestro equipo médico.";
             }
-            
+
             regForm.reset();
-            
+
             setTimeout(() => {
                 formNotice.textContent = "";
             }, 5000);
@@ -175,9 +175,9 @@ document.addEventListener("DOMContentLoaded", () => {
             e.preventDefault();
             contactNotice.className = "form-notice success";
             contactNotice.textContent = "¡Consulta enviada! Nos pondremos en contacto contigo a la brevedad.";
-            
+
             contactForm.reset();
-            
+
             setTimeout(() => {
                 contactNotice.textContent = "";
             }, 4000);
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const animScrollElements = document.querySelectorAll(".scroll-animate");
-    
+
     if ("IntersectionObserver" in window) {
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -210,13 +210,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (questionBtn) {
             questionBtn.addEventListener("click", () => {
                 const isActive = item.classList.contains("active");
-                
+
                 faqItems.forEach(i => {
                     i.classList.remove("active");
                     const btn = i.querySelector(".faq-question");
                     if (btn) btn.setAttribute("aria-expanded", "false");
                 });
-                
+
                 if (!isActive) {
                     item.classList.add("active");
                     questionBtn.setAttribute("aria-expanded", "true");
@@ -434,6 +434,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 const val = parseInt(face.getAttribute("data-level"));
                 updatePainScale(val);
             });
+        });
+    }
+
+    // Control del video de la carátula al pasar el cursor
+    const heroVideo = document.getElementById("heroVideo");
+    if (heroVideo) {
+        heroVideo.addEventListener("mouseenter", () => {
+            heroVideo.play().catch(error => {
+                console.log("Autoplay preventivo o error al reproducir video:", error);
+            });
+        });
+        heroVideo.addEventListener("mouseleave", () => {
+            heroVideo.pause();
         });
     }
 });
